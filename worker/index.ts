@@ -2,6 +2,7 @@ import { Env } from "./types";
 import { getCached, setCache, buildCacheKey } from "./kv";
 import { checkRateLimit } from "./rate-limiter";
 import { fetchFromRawg } from "./rawg";
+import { analyzeReviews } from "./ai";
 
 const CACHE_TTL = 3600;
 
@@ -11,7 +12,7 @@ export default {
 
     const corsHeaders = {
       "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "GET, OPTIONS",
+      "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type",
     };
 
@@ -29,6 +30,7 @@ export default {
       return new Response("Not Found", { status: 404, headers: corsHeaders });
     }
 
+    // Rate limit
     const ip = request.headers.get("CF-Connecting-IP") || "unknown";
     const rateResult = await checkRateLimit(env, ip);
     if (!rateResult.allowed) {
@@ -48,6 +50,29 @@ export default {
       );
     }
 
+    // AI review analysis endpoint
+    if (url.pathname === "/api/ai/review" && request.method === "POST") {
+      try {
+        const body: { gameName: string; reviews: string[] } = await request.json();
+        if (!body.gameName || !body.reviews?.length) {
+          return new Response(
+            JSON.stringify({ error: "gameName and reviews[] are required" }),
+            { status: 400, headers: { "Content-Type": "application/json", ...corsHeaders } }
+          );
+        }
+        const analysis = await analyzeReviews(env, body.gameName, body.reviews);
+        return new Response(JSON.stringify(analysis), {
+          headers: { "Content-Type": "application/json", ...corsHeaders },
+        });
+      } catch (e) {
+        return new Response(
+          JSON.stringify({ error: "AI analysis failed" }),
+          { status: 500, headers: { "Content-Type": "application/json", ...corsHeaders } }
+        );
+      }
+    }
+
+    // RAWG API proxy
     const rawgPath = url.pathname.replace("/api", "");
     const params = new URLSearchParams(url.search);
 

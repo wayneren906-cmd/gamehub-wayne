@@ -2,6 +2,7 @@ export interface Env {
   RAW_GAMES_KV: KVNamespace;
   RATE_LIMIT_KV: KVNamespace;
   RAWG_API_KEY: string;
+  AI_API_KEY?: string;
 }
 
 export interface CacheEntry<T> {
