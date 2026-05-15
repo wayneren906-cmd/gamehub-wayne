@@ -2,17 +2,15 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { Star, Monitor } from "lucide-react";
 import type { Game } from "@/types/game";
 import { Badge } from "@/components/ui/badge";
+import { GameImage } from "@/components/GameImage";
 
 interface GameCardProps {
   game: Game;
   index: number;
 }
-
-const PLACEHOLDER = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' fill='%2318181b'%3E%3Crect width='300' height='400'/%3E%3Ctext x='50%25' y='50%25' fill='%233f3f46' text-anchor='middle' dy='.3em' font-size='14'%3ENo Image%3C/text%3E%3C/svg%3E";
 
 function getMetacriticColor(score: number): string {
   if (score >= 90) return "bg-green-500 text-white";
@@ -38,13 +36,13 @@ export function GameCard({ game, index }: GameCardProps) {
         <div className="glass-card overflow-hidden transition-shadow duration-300 group-hover:border-indigo-500/30 group-hover:shadow-lg group-hover:shadow-indigo-500/10">
         {/* Cover Image */}
         <div className="relative aspect-[3/4] overflow-hidden">
-          <Image
-            src={game.background_image || PLACEHOLDER}
+          <GameImage
+            src={game.background_image}
             alt={game.name}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-            loading={index < 8 ? "eager" : "lazy"}
+            priority={index < 4}
           />
           {/* Overlay gradient on hover */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

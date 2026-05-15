@@ -2,7 +2,6 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { useState, useCallback } from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowLeft, BookOpen, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,11 +9,10 @@ import { GameMeta } from "@/components/GameMeta";
 import { GameRequirements } from "@/components/GameRequirements";
 import { AIReviewCloud } from "@/components/AIReviewCloud";
 import { DetailSkeleton } from "@/components/GameSkeleton";
+import { GameImage } from "@/components/GameImage";
 import { useGameDetail } from "@/hooks/useGameDetail";
 import { analyzeGameReviews } from "@/lib/ai";
 import type { ReviewTag } from "@/types/game";
-
-const PLACEHOLDER_BG = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='500' fill='%2318181b'%3E%3Crect width='1200' height='500'/%3E%3C/svg%3E";
 
 export default function GameDetailPage() {
   const params = useParams();
@@ -75,8 +73,8 @@ export default function GameDetailPage() {
     <div className="min-h-screen">
       {/* Hero Banner */}
       <div className="relative w-full h-[40vh] md:h-[50vh] min-h-[320px] overflow-hidden">
-        <Image
-          src={game.background_image || PLACEHOLDER_BG}
+        <GameImage
+          src={game.background_image}
           alt={game.name}
           fill
           className="object-cover"

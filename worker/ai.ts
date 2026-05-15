@@ -15,26 +15,30 @@ interface ReviewAnalysis {
   summary: string;
 }
 
-const SYSTEM_PROMPT = `You are a game review analyst. Given a list of player reviews for a video game, analyze them and extract:
+const SYSTEM_PROMPT = `你是一个游戏评价分析师。根据给定的玩家评价列表，分析并提取：
 
-1. A list of "pros" (positive aspects mentioned across reviews) with estimated percentage of reviewers mentioning each
-2. A list of "cons" (negative aspects mentioned) with estimated percentages
-3. A one-sentence summary in Chinese capturing the overall sentiment
+1. "pros"（好评点）列表，包含标签、预估提及百分比和数量
+2. "cons"（差评点）列表，包含标签、预估提及百分比和数量
+3. "summary"：一句中文总结，概括整体玩家情绪
 
-Return ONLY valid JSON in this exact format, no other text:
+只返回 JSON，不要其他内容：
 {
-  "pros": [{ "label": "string", "percentage": number, "count": number }],
-  "cons": [{ "label": "string", "percentage": number, "count": number }],
-  "summary": "string"
+  "pros": [{ "label": "画面表现", "percentage": 85, "count": 7 }],
+  "cons": [{ "label": "价格偏高", "percentage": 40, "count": 3 }],
+  "summary": "综合评价优秀，画面和沉浸感获认可。"
 }
 
-Rules:
-- Labels should be in Chinese, short (2-6 characters)
-- Percentages are 0-100, roughly how many reviews mention this point
-- Count is the estimated number of reviews mentioning it
-- Include 3-6 pros and 3-6 cons
-- Summary should be a natural Chinese sentence under 50 characters`;
+规则：
+- label 用中文，2-6 字
+- percentage 0-100
+- count 是预估提及该点的评价数
+- 3-6 个 pros 和 cons
+- summary 控制在 50 字以内`;
 
+/**
+ * Analyze game reviews using DeepSeek API.
+ * Uses cache-aside: checks KV first, falls back to API, caches result.
+ */
 export async function analyzeReviews(
   env: Env,
   gameName: string,
@@ -46,44 +50,52 @@ export async function analyzeReviews(
   const cached = await getCached<ReviewAnalysis>(env, cacheKey);
   if (cached) return cached;
 
-  // Build user message with reviews
+  const apiKey = env.AI_API_KEY;
+  if (!apiKey) {
+    return fallbackAnalysis(reviews);
+  }
+
   const reviewText = reviews
     .map((r, i) => `${i + 1}. ${r}`)
     .join("\n");
 
-  const userMessage = `Game: ${gameName}\n\nPlayer reviews:\n${reviewText}\n\nAnalyze these reviews and return the JSON.`;
+  const userMessage = `游戏: ${gameName}\n\n玩家评价:\n${reviewText}\n\n分析以上评价并返回JSON。`;
 
   try {
-    const response = await fetch("https://api.anthropic.com/v1/messages", {
+    const response = await fetch("https://api.deepseek.com/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": env.AI_API_KEY || env.RAWG_API_KEY,
-        "anthropic-version": "2023-06-01",
+        "Authorization": `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-6",
+        model: "deepseek-chat",
+        messages: [
+          { role: "system", content: SYSTEM_PROMPT },
+          { role: "user", content: userMessage },
+        ],
         max_tokens: 1024,
-        system: SYSTEM_PROMPT,
-        messages: [{ role: "user", content: userMessage }],
+        temperature: 0.3,
       }),
     });
 
     if (!response.ok) {
-      console.error(`AI API error: ${response.status}`);
+      console.error(`DeepSeek API error: ${response.status}`);
       return fallbackAnalysis(reviews);
     }
 
-    const data = await response.json() as { content: { text: string }[] };
-    const text = data.content?.[0]?.text || "";
+    const data = await response.json() as {
+      choices: { message: { content: string } }[];
+    };
 
-    // Extract JSON from response (Claude may wrap in markdown code blocks)
+    const text = data.choices?.[0]?.message?.content || "";
+
+    // Extract JSON from response
     const jsonMatch = text.match(/\{[\s\S]*\}/);
     if (!jsonMatch) return fallbackAnalysis(reviews);
 
     const analysis: ReviewAnalysis = JSON.parse(jsonMatch[0]);
 
-    // Validate
     if (!analysis.pros || !analysis.cons) {
       return fallbackAnalysis(reviews);
     }
@@ -98,9 +110,9 @@ export async function analyzeReviews(
   }
 }
 
-function fallbackAnalysis(reviews: ReviewAnalysis["pros"]): ReviewAnalysis {
-  // Keyword-based fallback when AI is unavailable
-  const text = reviews.join(" ").toLowerCase();
+/** Keyword-based fallback when AI API is unavailable */
+function fallbackAnalysis(reviews: string[]): ReviewAnalysis {
+  const text = reviews.join(" ");
   const pros: ReviewTag[] = [];
   const cons: ReviewTag[] = [];
 
@@ -126,7 +138,6 @@ function fallbackAnalysis(reviews: ReviewAnalysis["pros"]): ReviewAnalysis {
     }
   }
 
-  // Ensure at least some results
   if (pros.length === 0) {
     pros.push({ label: "体验良好", percentage: 70, count: Math.round(reviews.length * 0.7) });
   }
@@ -137,6 +148,8 @@ function fallbackAnalysis(reviews: ReviewAnalysis["pros"]): ReviewAnalysis {
   return {
     pros,
     cons,
-    summary: text.length > 0 ? "综合来看，玩家对该游戏的评价呈现多元化。" : "暂无足够评价数据进行分析。",
+    summary: reviews.length > 0
+      ? "综合来看，玩家对该游戏的评价呈现多元化。"
+      : "暂无足够评价数据进行分析。",
   };
 }

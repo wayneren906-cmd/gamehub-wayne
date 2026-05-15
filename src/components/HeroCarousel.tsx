@@ -2,15 +2,13 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Game } from "@/types/game";
+import { GameImage } from "@/components/GameImage";
 
 interface HeroCarouselProps {
   games: Game[];
 }
-
-const PLACEHOLDER_BG = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='500' fill='%2318181b'%3E%3Crect width='1200' height='500'/%3E%3C/svg%3E";
 
 export function HeroCarousel({ games }: HeroCarouselProps) {
   const [current, setCurrent] = useState(0);
@@ -75,8 +73,8 @@ export function HeroCarousel({ games }: HeroCarouselProps) {
           transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           className="absolute inset-0"
         >
-          <Image
-            src={game?.background_image || PLACEHOLDER_BG}
+          <GameImage
+            src={game?.background_image || ""}
             alt={game?.name || ""}
             fill
             className="object-cover"
