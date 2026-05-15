@@ -74,6 +74,17 @@ export interface HardwareSpec {
   vramGB: number;
 }
 
+export interface GameRequirements {
+  minCpu: string;
+  minGpu: string;
+  minRamGB: number;
+  minVramGB: number;
+  recCpu: string;
+  recGpu: string;
+  recRamGB: number;
+  recVramGB: number;
+}
+
 export interface CompatibilityResult {
   canRun: boolean;
   qualityLevel: "4K 60fps" | "2K 60fps" | "1080p 60fps" | "1080p 30fps" | "低于最低要求";
