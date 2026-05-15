@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-400 antialiased;
+    font-family: "Inter", "Geist", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-black/40 backdrop-blur-md border border-white/10 rounded-lg;
+  }
+
+  .glass-nav {
+    @apply bg-black/40 backdrop-blur-md border-b border-white/10;
+  }
+
+  .heading-high {
+    @apply text-white font-bold tracking-tight;
+  }
+
+  .body-muted {
+    @apply text-zinc-400 text-sm leading-relaxed;
+  }
+
+  .skeleton-shimmer {
+    @apply relative overflow-hidden bg-white/5 rounded-md;
+  }
+  .skeleton-shimmer::after {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent;
+    animation: shimmer 1.5s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  .glow-orb {
+    @apply absolute rounded-full pointer-events-none;
+    filter: blur(80px);
+    will-change: transform;
+  }
+}
