@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Star, Monitor } from "lucide-react";
@@ -33,7 +34,8 @@ export function GameCard({ game, index }: GameCardProps) {
       whileHover={{ y: -4 }}
       className="group cursor-pointer"
     >
-      <div className="glass-card overflow-hidden transition-shadow duration-300 group-hover:border-indigo-500/30 group-hover:shadow-lg group-hover:shadow-indigo-500/10">
+      <Link href={`/game/${game.slug}`} className="block">
+        <div className="glass-card overflow-hidden transition-shadow duration-300 group-hover:border-indigo-500/30 group-hover:shadow-lg group-hover:shadow-indigo-500/10">
         {/* Cover Image */}
         <div className="relative aspect-[3/4] overflow-hidden">
           <Image
@@ -93,7 +95,8 @@ export function GameCard({ game, index }: GameCardProps) {
             <p className="text-xs text-zinc-500">{new Date(game.released).getFullYear()}</p>
           )}
         </div>
-      </div>
+        </div>
+        </Link>
     </motion.div>
   );
 }
