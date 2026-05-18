@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "splatoon-3-beginner-tips",
   title: "喷射战士3新手上分指南：从 C 到 S 的进阶之路",
-  date: "2026-06-03",
+  date: "2026-04-07",
   summary: "从武器定位、地图控制到装备技能搭配，全方位帮助新鱿鱼从 C 段晋升 S 段。",
   tags: ["喷射战士3", "攻略", "射击", "新手"],
   body: [

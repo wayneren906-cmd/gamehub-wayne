@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "mario-odyssey-moon-guide",
   title: "马里奥奥德赛月亮收集指南：全王国高效路线",
-  date: "2026-06-01",
+  date: "2026-04-05",
   summary: "从帽子国到月之国，详解各王国月亮类型与高效收集路线，帮你快速达成全收集目标。",
   tags: ["马里奥奥德赛", "攻略", "收集", "平台跳跃"],
   body: [

@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "nintendo-switch-2-review",
   title: "Switch 2 首发体验报告：值得升级吗？",
-  date: "2026-05-19",
+  date: "2026-05-17",
   summary: "Switch 2 在硬件性能、屏幕素质与 Joy-Con 可靠性上实现了全面进化，但定价提升与首发阵容厚度仍是老玩家升级前需要权衡的关键因素。",
   tags: ["Switch2", "测评", "任天堂", "主机"],
   body: [

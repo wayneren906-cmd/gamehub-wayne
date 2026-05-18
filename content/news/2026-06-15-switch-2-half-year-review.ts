@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "switch-2-half-year-review",
   title: "Switch 2 发售半年回顾：销量、游戏阵容与玩家口碑",
-  date: "2026-06-15",
+  date: "2026-05-15",
   summary: "任天堂 Switch 2 发售半年，全球销量突破 2000 万台，第一方大作和第三方支持均有亮点，但这台新主机也面临着一些不容忽视的挑战。",
   tags: ["Switch2", "任天堂", "半年回顾", "主机"],
   body: [

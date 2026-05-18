@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "game-for-peace-gun-guide",
   title: "和平精英枪械选择攻略：版本最强武器与配件搭配",
-  date: "2026-06-11",
+  date: "2026-04-15",
   summary: "全面对比 AR、SMG、DMR 版本的优劣势，推荐最佳配件组合与压枪技巧。",
   tags: ["和平精英", "攻略", "射击", "装备"],
   body: [

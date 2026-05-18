@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "tga-2026-predictions",
   title: "2026 TGA年度游戏预测：谁将是今年的艾尔登法环？",
-  date: "2026-07-15",
+  date: "2026-05-12",
   summary: "距 TGA 2026 还有五个多月，但年度游戏的竞争格局已初现雏形。GTA6 被认为是最大热门，但多款强作同样虎视眈眈。",
   tags: ["TGA", "年度游戏", "预测", "评选"],
   body: [

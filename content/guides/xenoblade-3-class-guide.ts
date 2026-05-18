@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "xenoblade-3-class-guide",
   title: "异度神剑3职业搭配推荐：最优阵容构筑指南",
-  date: "2026-06-06",
+  date: "2026-04-10",
   summary: "解析六大职业定位、连锁攻击机制与最强职业组合，帮你打造无坚不摧的战斗阵容。",
   tags: ["异度神剑3", "攻略", "职业", "角色扮演"],
   body: [

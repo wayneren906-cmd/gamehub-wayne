@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "reverse-1999-newbie",
   title: "重返未来1999开荒推荐：新手十连最优选择与前期培养",
-  date: "2026-06-16",
+  date: "2026-04-20",
   summary: "详解新手池刷初始目标、卡牌合击策略与前期资源管理，帮助回归者高效开荒。",
   tags: ["重返未来1999", "攻略", "新手", "策略"],
   body: [

@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "smash-bros-combo-guide",
   title: "大乱斗连招入门：从基础操作到高伤连段",
-  date: "2026-06-09",
+  date: "2026-04-13",
   summary: "从小跳、速降到倾斜攻击，深入讲解大乱斗基础操作与新手友好角色的实用连段。",
   tags: ["大乱斗", "攻略", "格斗", "连招"],
   body: [

@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "animal-crossing-design-tips",
   title: "动森岛屿设计灵感合集：打造独一无二的梦想岛屿",
-  date: "2026-06-04",
+  date: "2026-04-08",
   summary: "汇集最受欢迎的岛屿主题风格与地形改造技巧，附自定义设计码资源，让你轻松打造梦幻岛屿。",
   tags: ["动森", "攻略", "设计", "模拟"],
   body: [

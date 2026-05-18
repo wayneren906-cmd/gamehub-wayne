@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "e3-2026-preview",
   title: "E3 2026 最受期待十大游戏：从 GTA6 到巫师新作",
-  date: "2026-05-20",
+  date: "2026-05-16",
   summary: "E3 2026 将于 6 月回归洛杉矶，本年度展会阵容堪称近年最强，从 GTA6 实机首秀到巫师4剧情预告，十款最受瞩目的作品全面前瞻。",
   tags: ["E3", "游戏展会", "预告", "大作"],
   body: [

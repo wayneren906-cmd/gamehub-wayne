@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "china-games-export-2026",
   title: "2026上半年国产游戏出海成绩单：米哈游依旧称王",
-  date: "2026-06-01",
+  date: "2026-05-14",
   summary: "2026 上半年国产游戏出海营收数据出炉，米哈游凭借三款旗舰产品继续领跑，库洛、网易、腾讯各有亮点，手游出海格局趋于多元化。",
   tags: ["国产游戏", "出海", "数据", "行业"],
   body: [

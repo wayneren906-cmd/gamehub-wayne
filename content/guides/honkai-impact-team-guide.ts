@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "honkai-impact-team-guide",
   title: "崩坏3终极区阵容推荐：当前版本主流配队一览",
-  date: "2026-06-12",
+  date: "2026-04-16",
   summary: "解析第二部核心阵容搭配、辅助循环与圣痕选择，助你在终极区深渊取得更高分数。",
   tags: ["崩坏3", "攻略", "配队", "动作"],
   body: [

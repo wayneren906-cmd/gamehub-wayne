@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "pikmin-4-dandori-tips",
   title: "皮克敏4当多利挑战技巧：白金评价速通策略",
-  date: "2026-06-08",
+  date: "2026-04-12",
   summary: "时间管理、皮克敏分配与奥奇使用技巧，助你轻松拿下当多利挑战的白金评价。",
   tags: ["皮克敏4", "攻略", "策略", "挑战"],
   body: [

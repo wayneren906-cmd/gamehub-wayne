@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "infinity-nikki-styling-guide",
   title: "无限暖暖搭配师指南：奇迹大陆收集与搭配技巧",
-  date: "2026-06-15",
+  date: "2026-04-19",
   summary: "从搭配赛高分策略、稀有套装获取路线到能力套装优先级，全方位搭配师成长指南。",
   tags: ["无限暖暖", "攻略", "换装", "冒险"],
   body: [

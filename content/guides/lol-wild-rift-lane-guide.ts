@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "lol-wild-rift-lane-guide",
   title: "英雄联盟手游分路指南：五位置基础打法与英雄推荐",
-  date: "2026-06-18",
+  date: "2026-04-22",
   summary: "从单人路、中路、双人路、打野到辅助，各位置基础职责与新手友好英雄推荐。",
   tags: ["英雄联盟手游", "攻略", "MOBA", "新手"],
   body: [

@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "diablo-immortal-review",
   title: "暗黑不朽：手游化是否成功？付费与体验的权衡",
-  date: "2026-06-19",
+  date: "2026-04-25",
   summary: "客观评测暗黑破坏神不朽的手游化改编成果，权衡 ARPG 核心乐趣与付费系统的争议。",
   tags: ["暗黑破坏神不朽", "测评", "动作", "角色扮演"],
   body: [

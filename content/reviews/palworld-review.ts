@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "palworld-review",
   title: "幻兽帕鲁：缝合怪还是神作？深度剖析现象级爆款",
-  date: "2026-06-20",
+  date: "2026-04-24",
   summary: "分析幻兽帕鲁为何引爆全球市场，探讨生存建造加宝可梦公式的化学反应与争议。",
   tags: ["幻兽帕鲁", "测评", "生存", "独立游戏"],
   body: [

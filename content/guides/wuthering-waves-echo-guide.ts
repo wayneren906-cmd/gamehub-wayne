@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "wuthering-waves-echo-guide",
   title: "鸣潮声骸系统详解：属性选择与副属性优先度",
-  date: "2026-06-13",
+  date: "2026-04-17",
   summary: "深度解析声骸套装效果、主副属性优先度与高效刷取路线，打造完美声骸配置。",
   tags: ["鸣潮", "攻略", "声骸", "动作"],
   body: [

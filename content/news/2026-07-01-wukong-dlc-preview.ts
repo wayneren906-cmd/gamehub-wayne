@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "wukong-dlc-preview",
   title: "黑神话东海龙宫 DLC 前瞻：新预告片细节逐个分析",
-  date: "2026-07-01",
+  date: "2026-05-13",
   summary: "游戏科学发布了《黑神话：悟空》东海龙宫 DLC 的第二支预告片，三分钟的画面中隐藏了大量关键信息，我们逐帧拆解每一个细节。",
   tags: ["黑神话悟空", "DLC", "前瞻", "东海龙宫"],
   body: [

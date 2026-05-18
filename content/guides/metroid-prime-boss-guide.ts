@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "metroid-prime-boss-guide",
   title: "银河战士究极复刻 Boss 攻略：全首领弱点与打法",
-  date: "2026-06-05",
+  date: "2026-04-09",
   summary: "逐个解析银河战士究极复刻中所有主要 Boss 的攻击模式、弱点与最佳应对策略。",
   tags: ["银河战士", "攻略", "Boss", "射击"],
   body: [

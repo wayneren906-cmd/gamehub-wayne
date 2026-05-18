@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "china-open-world-mobile",
   title: "国产开放世界手游大盘点：从原神到无限暖暖",
-  date: "2026-08-01",
+  date: "2026-05-11",
   summary: "国产开放世界手游赛道已从蓝海变为红海，本文横向对比当下最具代表性的六款产品，从美术风格到氪金模式逐一分析。",
   tags: ["国产", "开放世界", "手游", "盘点"],
   body: [

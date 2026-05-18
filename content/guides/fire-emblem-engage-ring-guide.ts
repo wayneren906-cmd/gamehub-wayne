@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "fire-emblem-engage-ring-guide",
   title: "火焰纹章 Engage 纹章士推荐：最强戒指搭配方案",
-  date: "2026-06-07",
+  date: "2026-04-11",
   summary: "详解各纹章士戒指的最佳配对角色与技能继承优先级，打造无敌的 Engage 阵容。",
   tags: ["火焰纹章", "攻略", "策略", "角色扮演"],
   body: [

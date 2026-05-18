@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "honor-of-kings-rank-guide",
   title: "王者荣耀S35赛季上分指南：版本强势英雄与分路策略",
-  date: "2026-06-10",
+  date: "2026-04-14",
   summary: "深度分析 S35 赛季各位置版本强势英雄、Ban 位优先级与大局观运营策略。",
   tags: ["王者荣耀", "攻略", "MOBA", "排位"],
   body: [

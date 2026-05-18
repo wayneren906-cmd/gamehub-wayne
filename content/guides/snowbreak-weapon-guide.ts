@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "snowbreak-weapon-guide",
   title: "尘白禁区武器选择指南：各角色最佳武器搭配",
-  date: "2026-06-17",
+  date: "2026-04-21",
   summary: "按武器类型与角色定位匹配，详解芯片组推荐与最佳武器组合，优化你的战斗配置。",
   tags: ["尘白禁区", "攻略", "武器", "射击"],
   body: [

@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "pokemon-sv-shiny-guide",
   title: "宝可梦朱紫闪光狩猎攻略：闪耀力加成全解析",
-  date: "2026-06-02",
+  date: "2026-04-06",
   summary: "深入解析闪耀力料理、大量出现刷法、异国百变怪孵蛋等闪光获取方式，助你高效收集闪光宝可梦。",
   tags: ["宝可梦朱紫", "攻略", "闪光", "收集"],
   body: [

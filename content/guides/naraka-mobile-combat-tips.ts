@@ -3,7 +3,7 @@ import type { ContentItem } from "@/types/content";
 const item: ContentItem = {
   slug: "naraka-mobile-combat-tips",
   title: "永劫无间手游战斗入门：振刀时机与基础连招",
-  date: "2026-06-14",
+  date: "2026-04-18",
   summary: "从猜拳机制、振刀时机到各武器基础连招，帮助新手快速上手永劫无间手游。",
   tags: ["永劫无间", "攻略", "格斗", "动作"],
   body: [
