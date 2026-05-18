@@ -1,0 +1,118 @@
+{
+  "id": 5,
+  "slug": "red-dead-redemption-2",
+  "name": "荒野大镖客: 救赎 2",
+  "released": "2018-10-26",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 97,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "荒野大镖客: 救赎 2 是 Rockstar Games 出品的西部题材开放世界动作冒险游戏。故事设定在 1899 年的美国西部，玩家扮演范德林帮的成员亚瑟·摩根，在法治逐渐侵蚀荒野的时代挣扎求生。游戏以惊人的细节刻画了一个充满生命力的世界，从茂密森林到广袤平原，从繁华城镇到荒凉营地，被誉为开放世界游戏的最高杰作。",
+  "developers": [
+    {
+      "id": 6,
+      "name": "Rockstar Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 6,
+      "name": "Rockstar Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称开放世界，涵盖枪战、狩猎、钓鱼、赌博、马匹驯养等丰富活动。死神之眼系统允许在战斗中精准锁定多个目标。荣誉系统根据玩家的道德选择改变 NPC 对你的态度和剧情走向。营地管理、武器保养、马匹羁绊等细节系统营造极强的沉浸感。",
+  "recommendation": "Rockstar 投入 8 年打造的传世之作，史上细节最丰富的开放世界。亚瑟·摩根的故事堪称游戏叙事的巅峰——关于忠诚、救赎与时代的终结。即便只为了骑马穿越星空下的荒野，也值回票价。Metacritic 97 分，必玩中的必玩。",
+  "requirements": {
+    "minCpu": "Intel Core i5-2500K",
+    "minGpu": "NVIDIA GeForce GTX 770",
+    "minRamGB": 8,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i7-4770K",
+    "recGpu": "NVIDIA GeForce GTX 1060",
+    "recRamGB": 12,
+    "recVramGB": 6
+  },
+  "reviews": [
+    "开放世界细节的巅峰之作，每个 NPC 都有独立的生活作息。",
+    "亚瑟·摩根的人物塑造无懈可击，结局令人心碎。",
+    "画面表现力惊人，光影和天气系统营造的氛围无与伦比。",
+    "狩猎和钓鱼系统做得比许多专门的游戏还要好。",
+    "主线节奏偏慢，前期需要耐心投入。",
+    "PC 版首发时有优化问题，现已修复。",
+    "Red Dead Online 模式内容丰富，可玩性极高。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-10-29",
+      "title": "Red Dead Redemption 初代登陆 PC",
+      "summary": "Rockstar 将初代 RDR 及其丧尸 DLC 移植至 PC 平台。"
+    },
+    {
+      "date": "2024-05-15",
+      "title": "Red Dead Online 新职业上线",
+      "summary": "新增猎人追踪者职业，开放全新传奇动物和专属装备。"
+    },
+    {
+      "date": "2023-12-01",
+      "title": "社区活动：西部传奇月",
+      "summary": "双倍经验、限定奖励，重温亚瑟·摩根的不朽旅程。"
+    }
+  ]
+}

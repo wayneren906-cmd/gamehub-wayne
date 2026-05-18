@@ -1,0 +1,112 @@
+{
+  "id": 26,
+  "slug": "lies-of-p",
+  "name": "匹诺曹的谎言",
+  "released": "2023-09-19",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_hero.jpg",
+  "rating": 4.3,
+  "metacritic": 80,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 11,
+      "name": "魂系",
+      "slug": "souls-like"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "匹诺曹的谎言 是韩国 Round8 Studio 开发的魂系动作 RPG，以卡洛·科洛迪的经典童话《木偶奇遇记》为背景进行黑暗改编。玩家扮演人偶 P，在被疯狂木偶和机械怪物占据的克拉特城中寻找吉佩托先生。游戏以其精美的美术风格、深度的武器组合系统和扎实的魂系战斗而受到好评。",
+  "developers": [
+    {
+      "id": 20,
+      "name": "Round8 Studio"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 20,
+      "name": "Neowiz"
+    }
+  ],
+  "tags": [],
+  "gameplay": "经典的魂系第三人称动作，但加入了独特的武器组合系统——每把武器的刀刃和手柄可拆分重组，创造全新攻击模组。军团手臂提供钩索、电击、火焰喷射等辅助能力。谎言系统贯穿剧情——选择是否说谎影响结局和角色发展。格挡和闪避并重，Boss 战设计硬核而精致。",
+  "recommendation": "近年来最好的非 FromSoftware 魂系游戏。武器组合系统创意十足，让你可以打造专属的战斗风格。黑暗童话的美术风格独具魅力，克拉特城的每一个角落都笼罩在 Belle Époque 的诡异美学中。如果你通关了所有 FromSoftware 游戏依然饥渴，匹诺曹会给你惊喜。",
+  "requirements": {
+    "minCpu": "Intel Core i3-6300",
+    "minGpu": "NVIDIA GeForce GTX 960",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-8700",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 6
+  },
+  "reviews": [
+    "武器组合系统是最大的创新，刀刃+手柄的排列组合让人沉迷。",
+    "美术风格独特，黑暗童话+蒸汽朋克的视觉表现力出色。",
+    "Boss 战设计有水准，难度曲线合理。",
+    "故事改编大胆，《木偶奇遇记》的黑暗扭曲版引人入胜。",
+    "部分场景堆怪严重，体验不够流畅。",
+    "格挡窗口比 FromSoftware 游戏更苛刻，学习成本高。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-07-05",
+      "title": "DLC 公布",
+      "summary": "Round8 公布续作及 DLC 计划，预计新增章节和武器。"
+    },
+    {
+      "date": "2024-02-15",
+      "title": "销量突破 100 万",
+      "summary": "Neowiz 宣布匹诺曹的谎言全球销量突破 100 万份。"
+    }
+  ]
+}

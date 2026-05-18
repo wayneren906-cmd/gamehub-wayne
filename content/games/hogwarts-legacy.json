@@ -1,0 +1,112 @@
+{
+  "id": 20,
+  "slug": "hogwarts-legacy",
+  "name": "霍格沃茨之遗",
+  "released": "2023-02-10",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_hero.jpg",
+  "rating": 4.4,
+  "metacritic": 83,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "霍格沃茨之遗 是 Avalanche Software 开发的哈利·波特世界观开放世界动作 RPG。故事设定在 19 世纪末的魔法世界，玩家扮演一名拥有感知古代魔法能力的霍格沃茨五年级新生。在学院中学习魔法课程、探索霍格沃茨城堡的秘密、驯服神奇生物，同时揭开古代魔法背后隐藏的黑暗真相。",
+  "developers": [
+    {
+      "id": 15,
+      "name": "Avalanche Software"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 15,
+      "name": "Warner Bros. Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称开放世界 RPG，霍格沃茨城堡、霍格莫德村及周边地区无缝探索。魔法战斗基于连击系统，基础咒语与古代魔法终结技配合。有求必应屋是玩家的自定义空间，可种植植物、调配药剂和装饰环境。扫帚飞行和鹰马飞行让探索更加自由。四个学院有不同的公共休息室和专属任务。",
+  "recommendation": "哈利·波特粉丝的终极梦想——终于有一款游戏让你真正走进霍格沃茨。城堡的每个角落都藏着秘密，飞天扫帚穿越苏格兰高地的自由感令人心醉。即使你不是系列粉丝，出色的 RPG 系统和美丽的开放世界也值得一玩。2023 年全球销量冠军名副其实。",
+  "requirements": {
+    "minCpu": "Intel Core i5-6600",
+    "minGpu": "NVIDIA GeForce GTX 960",
+    "minRamGB": 16,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-8700",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "霍格沃茨城堡的还原度令人惊叹，每个细节都充满魔法世界的魅力。",
+    "扫帚飞行穿越苏格兰高地的自由感无与伦比，是游戏最美妙的体验。",
+    "战斗系统出人意料地流畅，咒语连击和古代魔法终结技爽快。",
+    "主线剧情中规中矩，缺乏令人惊喜的转折。",
+    "PC 版优化初期较差，多次更新后有显著改善。",
+    "有求必应屋的装饰系统极富创意，让人流连忘返。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-06-04",
+      "title": "夏季更新上线",
+      "summary": "新增拍照模式、新发型和霍格莫德商店等免费内容。"
+    },
+    {
+      "date": "2024-01-26",
+      "title": "销量突破 2400 万",
+      "summary": "WB Games 宣布霍格沃茨之遗成 2023 年全球最畅销游戏。"
+    }
+  ]
+}

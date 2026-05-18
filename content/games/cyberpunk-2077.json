@@ -1,0 +1,119 @@
+{
+  "id": 1,
+  "slug": "cyberpunk-2077",
+  "name": "赛博朋克 2077",
+  "released": "2020-12-10",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg",
+  "rating": 4.2,
+  "metacritic": 86,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "赛博朋克 2077 是一款开放世界动作冒险角色扮演游戏，故事发生在夜之城——一个痴迷于力量、魅力和身体改造的大都市。玩家扮演雇佣兵 V，追寻一种独一无二的植入物——永生之匙。在追逐的过程中，玩家将深入探索这座城市的黑暗面，与各色人物建立关系，并做出影响故事走向的抉择。",
+  "developers": [
+    {
+      "id": 1,
+      "name": "CD Projekt Red"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "CD Projekt"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第一人称视角开放世界 RPG，融合枪战、黑客入侵与近战三种战斗流派。玩家可通过义体改造自定义角色能力，从潜行黑客到狂暴战士自由切换。对话选择影响剧情分支，多条故事线交织成复杂叙事网络。载具驾驶、公寓装修等生活元素丰富城市场景的沉浸感。",
+  "recommendation": "如果你喜欢深度叙事、赛博朋克美学和高自由度的角色构筑，这款游戏不容错过。经过 2.0 更新和《往日之影》DLC 后，它已进化为当今最出色的开放世界 RPG 之一。夜之城的每一处街角都藏着故事，值得投入 100+ 小时细细品味。",
+  "requirements": {
+    "minCpu": "Intel Core i5-3570K",
+    "minGpu": "NVIDIA GeForce GTX 780",
+    "minRamGB": 8,
+    "minVramGB": 3,
+    "recCpu": "Intel Core i7-4790",
+    "recGpu": "NVIDIA GeForce GTX 1060",
+    "recRamGB": 12,
+    "recVramGB": 6
+  },
+  "reviews": [
+    "画面在高端配置下极为出色，尤其是光追效果，夜之城的光影氛围营造堪称一绝。",
+    "剧情设计有深度，角色塑造令人印象深刻，多个结局值得反复游玩。",
+    "首发时 Bug 较多，经过多次更新后体验大幅改善，现在已是完整佳作。",
+    "开放世界内容丰富，支线任务质量很高，探索感十足。",
+    "战斗系统灵活，黑客、近战、枪械多种流派可以自由组合。",
+    "驾驶手感一般，载具种类虽然多但操控体验参差不齐。",
+    "音乐和音效沉浸感极强，电台歌曲贴合世界观。",
+    "主线剧情偏短，但 DLC《往日之影》补充了大量高质量内容。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-12-10",
+      "title": "2.2 版本更新上线",
+      "summary": "新增车辆自定义、照片模式增强，多项游戏体验优化。"
+    },
+    {
+      "date": "2024-09-26",
+      "title": "《往日之影》获 TGA 最佳叙事提名",
+      "summary": "DLC 凭借出色的剧情和角色塑造获得行业认可。"
+    },
+    {
+      "date": "2024-06-15",
+      "title": "夜之城传奇挑战赛开启",
+      "summary": "官方社区活动，完成指定任务赢取限定奖励。"
+    }
+  ]
+}

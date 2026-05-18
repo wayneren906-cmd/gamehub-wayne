@@ -1,0 +1,104 @@
+{
+  "id": 10,
+  "slug": "starfield",
+  "name": "星空",
+  "released": "2023-09-06",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/library_hero.jpg",
+  "rating": 3.8,
+  "metacritic": 83,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 13,
+      "name": "科幻",
+      "slug": "sci-fi"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "星空 是 Bethesda Game Studios 二十五年来首个全新 IP，也是其首款太空题材角色扮演游戏。故事设定在 2330 年，人类已殖民多个星系。玩家将加入星座组织，在浩瀚的太空中探索未知星球、揭开神秘遗物的秘密。游戏以 NASA 朋克美学为基调，融合了 Bethesda 标志性的开放世界叙事与太空探索的自由感。",
+  "developers": [
+    {
+      "id": 10,
+      "name": "Bethesda Game Studios"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 10,
+      "name": "Bethesda Softworks"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第一/第三人称太空 RPG，飞船驾驶、太空战斗与地面探索无缝切换。飞船定制系统允许从引擎到舱室全面改造。技能树涵盖战斗、科技、体能、社交和科学五大方向。哨站建造系统可在任意星球建立资源采集基地。超过 1000 颗星球可供探索，融合程序生成与手工艺内容。",
+  "recommendation": "Bethesda 的太空史诗，适合喜欢慢节奏探索和自由角色扮演的玩家。飞船定制和建造系统的深度令人着迷，NASA 朋克视觉风格独树一帜。推荐给热爱《辐射》和《上古卷轴》系列，并愿意在浩瀚星空中寻找自己方向的玩家。",
+  "requirements": {
+    "minCpu": "Intel Core i7-6800K",
+    "minGpu": "NVIDIA GeForce GTX 1070 Ti",
+    "minRamGB": 16,
+    "minVramGB": 8,
+    "recCpu": "Intel Core i5-10600K",
+    "recGpu": "NVIDIA GeForce RTX 2080",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "飞船建造和太空探索的自由度令人震撼。",
+    "NASA 朋克美术风格独特，飞船内饰设计精美。",
+    "频繁的黑屏加载打断了探索的沉浸感。",
+    "支线任务质量上乘，阵营任务线比主线更精彩。",
+    "太空战斗手感扎实，飞船改装系统深度十足。",
+    "星球探索重复度较高，程序生成内容缺乏惊喜。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-05-01",
+      "title": "Shattered Space DLC 发布",
+      "summary": "首个大型扩展包带来新的星球、故事线和装备。"
+    },
+    {
+      "date": "2024-02-20",
+      "title": "Creation Kit 正式支持 Mod",
+      "summary": "Bethesda 发布官方 Mod 工具，社区创作生态蓬勃发展。"
+    },
+    {
+      "date": "2023-11-15",
+      "title": "DLSS 3 帧生成支持",
+      "summary": "更新加入 DLSS 3 和 FSR 3 支持，性能大幅提升。"
+    }
+  ]
+}

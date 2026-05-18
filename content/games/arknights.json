@@ -1,0 +1,77 @@
+{
+  "id": 44,
+  "slug": "arknights",
+  "name": "明日方舟",
+  "released": "2019-05-01",
+  "background_image": "https://media-cn.arknights.top/uploads/2024/04/arknights-cover.jpg",
+  "hero_image": "",
+  "rating": 4.5,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "鹰角网络出品的塔防策略手游。在末日废土风格的泰拉大陆上，你作为「博士」指挥拥有各种特殊能力的「干员」们，通过精妙的阵型部署阻挡敌人的进攻。独特的机能风美术、深度的塔防策略和海量的剧情文本使其在二次元手游中独树一帜。",
+  "developers": [
+    {
+      "id": 59,
+      "name": "Hypergryph"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 59,
+      "name": "Hypergryph"
+    }
+  ],
+  "tags": [],
+  "gameplay": "塔防策略为核心——在高台和地面部署干员阻挡敌人。每个干员有独特技能和模板，组合搭配极为重要。关卡设计精妙，从简单阻挡到复杂的多路防守和机制 BOSS。集成战略（Roguelike）和危机合约（高难挑战）提供丰富终局内容。主线剧情量巨大，世界观设定极为详尽。",
+  "recommendation": "明日方舟是二次元手游中策略深度的标杆。如果你喜欢塔防和策略游戏，方舟的关卡设计会让你沉迷——每一关都像是一道精妙的谜题。庞大的世界观和阴郁的机能美术风格也让它在一众亮色系二次元游戏中格外突出。不追求战力碾压，而是用脑子过关——这就是方舟的魅力。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "塔防策略深度极高，关卡设计精妙。",
+    "机能风美术独树一帜，角色设计高级感十足。",
+    "世界观和剧情文本量巨大，暗黑叙事有深度。",
+    "对新手学习曲线较陡，需要看攻略。"
+  ],
+  "screenshots": [],
+  "news": []
+}

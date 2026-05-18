@@ -1,0 +1,64 @@
+{
+  "id": 35,
+  "slug": "animal-crossing-new-horizons",
+  "name": "集合啦！动物森友会",
+  "released": "2020-03-20",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/a/animal-crossing-new-horizons-switch/hero",
+  "hero_image": "",
+  "rating": 4.5,
+  "metacritic": 90,
+  "genres": [
+    {
+      "id": 6,
+      "name": "模拟",
+      "slug": "simulation"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone"
+  },
+  "description_raw": "移居无人岛，开始全新的慢生活。从一顶帐篷开始，逐步将荒岛建设成理想中的家园。钓鱼、捕虫、挖化石、种花、装修房屋——一切按你的节奏来。与性格各异的动物邻居建立友谊，在四季更替中感受时光的温柔流淌。",
+  "developers": [
+    {
+      "id": 51,
+      "name": "Nintendo EPD"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "真实时间同步——游戏内时间与现实一致，节日和季节同步。岛屿建设自由度高：地形改造、河流改道、悬崖搭建。家具 DIY 系统让你亲手打造岛上的一切。博物馆收集是长期目标——鱼类、昆虫、化石、艺术品四大类。联机访问好友岛屿，交换物品互相帮助。",
+  "recommendation": "在忙碌的生活中，动森提供了一方宁静的虚拟天地。没有压力、没有 deadline，只有四季轮转和动物邻居的温暖问候。2020 年疫情期间成为全球玩家的精神避难所，至今仍是 Switch 上最治愈的游戏。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "治愈系神作，在岛上度过的每一分钟都是享受。",
+    "自定义内容丰富，岛屿设计是无限创意的画布。",
+    "真实时间机制让游戏充满仪式感。",
+    "联机玩法拉满社交乐趣。"
+  ],
+  "screenshots": [],
+  "news": []
+}

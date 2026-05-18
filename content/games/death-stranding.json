@@ -1,0 +1,104 @@
+{
+  "id": 18,
+  "slug": "death-stranding",
+  "name": "死亡搁浅",
+  "released": "2022-03-30",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/library_hero.jpg",
+  "rating": 4.3,
+  "metacritic": 86,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "死亡搁浅 是小岛秀夫独立后制作的首款游戏，由小岛工作室开发。在未来的末日美国，死亡搁浅现象模糊了生与死的界限。玩家扮演快递员山姆·波特·布里吉斯，肩负连接分散的人类聚落、重建社会联系的使命。游戏以其独特的送货玩法、深邃的剧情和好莱坞全明星阵容著称。",
+  "developers": [
+    {
+      "id": 13,
+      "name": "Kojima Productions"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 13,
+      "name": "505 Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "核心玩法是穿越各种地形完成快递任务，需要管理负重、平衡和路线规划。BB 探测器可感知隐形怪物 BT，潜行躲避或使用血液武器对抗。异步联机系统允许玩家共享建设的桥梁、公路和滑索，将孤独的旅途变成无声的协作。载具包括摩托车、卡车和滑索网络，逐渐解锁更高效的运输方式。",
+  "recommendation": "小岛秀夫最具个人风格的作品，一款关于连接与孤独的哲学之旅。游戏的核心创意——让送货成为一种艺术——在行业中独一无二。当你在绝境中看到其他玩家留下的梯子和提示，那种跨越空间的人性温暖令人动容。适合喜欢慢节奏沉浸体验和独特叙事的玩家。",
+  "requirements": {
+    "minCpu": "Intel Core i5-3470",
+    "minGpu": "NVIDIA GeForce GTX 1050",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-8700K",
+    "recGpu": "NVIDIA GeForce RTX 2080",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "送货玩法的创新性独一无二，规划路线本身就是一种乐趣。",
+    "异步联机系统让孤独的旅途充满温暖和惊喜。",
+    "剧情深邃且脑洞大开，典型的 Kojima 式叙事。",
+    "前期节奏较慢，需要耐心才能感受到游戏魅力。",
+    "画面表现力顶级，Decima 引擎的远景渲染令人叹服。",
+    "BB 的设定让人产生真实的情感连接，结局催泪。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2025-03-10",
+      "title": "死亡搁浅 2 发售日确定",
+      "summary": "小岛秀夫宣布续作《死亡搁浅 2: 冥滩之上》定档 2025 年 6 月。"
+    },
+    {
+      "date": "2024-01-31",
+      "title": "真人电影化决定",
+      "summary": "A24 与小岛工作室宣布将死亡搁浅改编为真人电影。"
+    }
+  ]
+}

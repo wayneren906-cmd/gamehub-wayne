@@ -1,0 +1,69 @@
+{
+  "id": 32,
+  "slug": "mario-odyssey",
+  "name": "超级马里奥：奥德赛",
+  "released": "2017-10-27",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/s/super-mario-odyssey-switch/hero",
+  "hero_image": "",
+  "rating": 4.8,
+  "metacritic": 97,
+  "genres": [
+    {
+      "id": 4,
+      "name": "平台",
+      "slug": "platformer"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone 10+"
+  },
+  "description_raw": "马力欧再次踏上了拯救桃花公主的旅程——但这次他有了新伙伴「凯皮」。玩家将乘坐奥德赛号飞船周游世界，从繁华的纽顿市到神秘的遗忘之国，每个王国都是一座精心设计的箱庭游乐场。凯皮的「附身」能力让马力欧可以操控敌人和物体，彻底改变了平台跳跃的核心玩法。",
+  "developers": [
+    {
+      "id": 51,
+      "name": "Nintendo EPD"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "3D 平台跳跃的集大成者。每个王国是一个开放箱庭，藏有数十个月亮收集品。凯皮的附身能力让马力欧可以变身为霸王龙、电线、坦克、青蛙等数十种形态。帽子投掷既是攻击手段也是移动工具——踩帽跳、弹墙跳等高阶技巧提供了极高操作上限。双人模式下第二位玩家可操控凯皮辅助。",
+  "recommendation": "马力欧 3D 系列的巅峰之作，将探索、收集与操作乐趣完美调和。每个王国都充满创意和惊喜——从纽顿市的音乐节到料理国度的美食之旅。无论是追求全收集的硬核玩家还是只想轻松体验的休闲玩家，奥德赛都能满足你。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "箱庭设计的教科书，每个王国都充满创意和惊喜。",
+    "凯皮附身系统极大丰富了玩法，每次变身都新鲜感十足。",
+    "操作手感丝滑流畅，马力欧的动作响应无可挑剔。",
+    "月亮收集设计巧妙，从简单到硬核都有覆盖。"
+  ],
+  "screenshots": [],
+  "news": []
+}

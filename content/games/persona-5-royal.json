@@ -1,0 +1,115 @@
+{
+  "id": 29,
+  "slug": "persona-5-royal",
+  "name": "女神异闻录 5 皇家版",
+  "released": "2022-10-21",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/library_hero.jpg",
+  "rating": 4.7,
+  "metacritic": 95,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 5,
+      "name": "策略",
+      "slug": "strategy"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "女神异闻录 5 皇家版 是 Atlus 开发的日式角色扮演游戏，是 P5 的终极加强版。玩家扮演转学到东京秀尽学园的高中生 Joker，白天体验校园生活和社交模拟，夜晚潜入异世界殿堂，化身心之怪盗团偷走扭曲大人心中的欲望。游戏以其时尚的 UI 设计、深刻的角色塑造和爵士融合配乐被广泛赞誉为史上最佳 JRPG 之一。",
+  "developers": [
+    {
+      "id": 22,
+      "name": "Atlus"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 22,
+      "name": "SEGA"
+    }
+  ],
+  "tags": [],
+  "gameplay": "日式 RPG 分为日常社交和迷宫战斗两部分。白天在东京度过校园生活——上课、打工、与信赖伙伴建立羁绊，每个羁绊对应塔罗牌 Arcana，解锁强力技能和剧情。夜晚潜入宫殿进行回合制战斗，利用属性弱点和 1 MORE 追击系统最大化输出。总攻击和 ShowTime 合体技演出华丽。时间管理系统要求玩家高效规划每一天。",
+  "recommendation": "史上评分最高的 JRPG 之一——时尚的 UI 在你眼前爆炸，酸爵士配乐让你不自觉摇摆，每一个信赖伙伴的成长故事都让人热泪盈眶。100+ 小时的冒险中，东京的每一个街角都散发着独特魅力。即使从没玩过 JRPG，P5R 也是入门的不二之选。Take your heart。",
+  "requirements": {
+    "minCpu": "Intel Core i7-4790",
+    "minGpu": "NVIDIA GeForce GTX 760",
+    "minRamGB": 8,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i7-4790",
+    "recGpu": "NVIDIA GeForce GTX 760",
+    "recRamGB": 8,
+    "recVramGB": 2
+  },
+  "reviews": [
+    "史上最时尚的游戏 UI，每一帧都是平面设计的教科书。",
+    "角色塑造深刻动人，每个队友的成长故事都催人泪下。",
+    "酸爵士配乐是游戏史上最棒的 OST 之一。",
+    "100+ 小时的流程虽长但沉浸感十足。",
+    "迷宫后期重复度较高，战斗节奏拖沓。",
+    "PC 版锁 60fps 略显遗憾，但画面表现依然出色。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-06-08",
+      "title": "Persona 6 传闻四起",
+      "summary": "Atlus 域名注册信息暗示 Persona 6 即将正式公布。"
+    },
+    {
+      "date": "2023-11-17",
+      "title": "Persona 3 Reload 发售",
+      "summary": "P3 重制版正式发售，Metacritic 87 分，首周破百万。"
+    }
+  ]
+}

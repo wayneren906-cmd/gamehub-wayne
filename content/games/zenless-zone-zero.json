@@ -1,0 +1,85 @@
+{
+  "id": 43,
+  "slug": "zenless-zone-zero",
+  "name": "绝区零",
+  "released": "2024-07-04",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2934780/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 4.2,
+  "metacritic": 78,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "HoYoverse 带来的都市潮酷动作 RPG。故事发生在被神秘灾害「空洞」侵袭的末日都市新艾利都，玩家作为「绳匠」引导代理人深入空洞探索。游戏以街头涂鸦风格、快节奏连携战斗和 Roguelike 探索为核心，走出了与崩坏和原神截然不同的风格路线。",
+  "developers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "tags": [],
+  "gameplay": "三人小队快节奏即时战斗——通过极限闪避和弹反触发「连携技」造成巨额伤害。探索采用 Roguelike 走格子模式，不同选择带来不同路线和增益。邦布（宠物）可为队伍提供增益和额外攻击。音擎和驱动盘是主要养成系统。空洞探索设计融合了随机性和策略选择。",
+  "recommendation": "绝区零是 HoYoverse 最具风格化的作品——街头涂鸦美术、潮酷角色设计、动感电子音乐构建出独一无二的氛围。快节奏的连携战斗爽快感十足，Roguelike 探索增加了随机乐趣。如果你想体验一款「不一样」的 HoYoverse 游戏，绝区零值得一试。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "美术和音乐风格极具辨识度，潮流感满分。",
+    "连携战斗快感十足，打击反馈出色。",
+    "Roguelike 走格子探索有新意。",
+    "日常玩法重复度偏高。"
+  ],
+  "screenshots": [],
+  "news": []
+}

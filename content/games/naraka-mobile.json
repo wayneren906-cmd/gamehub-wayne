@@ -1,0 +1,77 @@
+{
+  "id": 49,
+  "slug": "naraka-mobile",
+  "name": "永劫无间手游",
+  "released": "2024-07-25",
+  "background_image": "https://img.naraka-mobile.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 10,
+      "name": "大逃杀",
+      "slug": "battle-royale"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "网易 24 Entertainment 打造的武侠大逃杀手游。将冷兵器格斗与大逃杀玩法融合——飞索移动、格挡反击、霸体连招，在 60 人生存竞技中体验真正的武侠对决。端游流水超预期后，手游版针对触屏操作进行了全面优化。",
+  "developers": [
+    {
+      "id": 63,
+      "name": "24 Entertainment"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 64,
+      "name": "NetEase"
+    }
+  ],
+  "tags": [],
+  "gameplay": "60 人武侠生存竞技——使用飞索在垂直空间中高速移动和追击。战斗以冷兵器近战为核心：轻击、重击、格挡、霸体、振刀构成剪刀石头布式的博弈。每种武器（太刀、长剑、阔刀、双节棍等）有完全不同的连招体系。魂玉系统在局内赋予武器特殊效果。缩圈压力下最终存活者获胜。",
+  "recommendation": "永劫无间走出了大逃杀品类的一条新路——冷兵器武侠格斗。飞索系统赋予了地图极致的垂直自由度，而近战博弈（尤其是振刀反击）带来的心理战乐趣是枪战游戏无法比拟的。手游版在触屏操作上的适配做得不错。如果你想体验不一样的吃鸡，永劫无间值得一试。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "冷兵器武侠格斗独树一帜。",
+    "飞索系统让移动和追击极度自由。",
+    "振刀机制带来独特的心理博弈乐趣。",
+    "手游触屏操作需要一定适应期。"
+  ],
+  "screenshots": [],
+  "news": []
+}

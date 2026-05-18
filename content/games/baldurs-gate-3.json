@@ -1,0 +1,113 @@
+{
+  "id": 4,
+  "slug": "baldurs-gate-3",
+  "name": "博德之门 3",
+  "released": "2023-08-03",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_hero.jpg",
+  "rating": 4.8,
+  "metacritic": 96,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 5,
+      "name": "策略",
+      "slug": "strategy"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "博德之门 3 是由 Larian Studios 开发的角色扮演游戏，基于龙与地下城第五版规则。游戏设定在被遗忘的国度，玩家将带领一支被夺心魔蝌蚪感染的冒险者队伍，寻找解除诅咒的方法。游戏以其无与伦比的自由度、深刻的角色塑造和丰富的剧情分支而闻名，被广泛认为是史上最佳 CRPG 之一。",
+  "developers": [
+    {
+      "id": 3,
+      "name": "Larian Studios"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 3,
+      "name": "Larian Studios"
+    }
+  ],
+  "tags": [],
+  "gameplay": "回合制战术战斗基于 D&D 5E 规则，高度依赖地形、环境互动与团队配合。探索采用自由视角，可攀爬、飞行、潜行、推撞，几乎每种想法都能付诸实践。掷骰子系统贯穿对话与行为判定，带来桌游般的不确定性。支持最多 4 人联机合作，每人可控制自己的角色。",
+  "recommendation": "史上评分最高的 CRPG 之一，自由度近乎疯狂——你可以与任何 NPC 对话、交易、战斗甚至偷窃。角色塑造登峰造极，同伴故事线感人至深。如果你热爱深度角色扮演和策略战斗，这将是你玩过的最好的游戏。",
+  "requirements": {
+    "minCpu": "Intel Core i5-4690",
+    "minGpu": "NVIDIA GeForce GTX 970",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-8700K",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "CRPG 的新标杆，自由度之高令人难以置信，每个选择都有意义。",
+    "角色塑造极为出色，同伴任务线感人至深。",
+    "战斗系统完美还原 D&D 规则，策略性和创造性兼具。",
+    "第三章优化不佳，部分场景帧率明显下降。",
+    "画面精美，过场动画质量堪比电影。",
+    "对话树庞大复杂，展现了惊人的分支设计。",
+    "上手难度较高，D&D 新手需要时间适应规则。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-11-15",
+      "title": "官方 Mod 工具上线",
+      "summary": "Larian 发布官方 Mod 制作工具，创意工坊内容已超 3000 件。"
+    },
+    {
+      "date": "2024-03-21",
+      "title": "销量突破 1500 万",
+      "summary": "BG3 成为 Larian 历史上最畅销的游戏，并获多项年度游戏大奖。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "斩获 TGA 年度游戏",
+      "summary": "Baldur's Gate 3 在 TGA 2023 中横扫包括年度游戏在内的六项大奖。"
+    }
+  ]
+}

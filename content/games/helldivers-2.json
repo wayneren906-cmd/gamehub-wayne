@@ -1,0 +1,99 @@
+{
+  "id": 27,
+  "slug": "helldivers-2",
+  "name": "地狱潜兵 2",
+  "released": "2024-02-08",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_hero.jpg",
+  "rating": 4.4,
+  "metacritic": 82,
+  "genres": [
+    {
+      "id": 6,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "地狱潜兵 2 是 Arrowhead Game Studios 开发的合作第三人称射击游戏。玩家扮演超级地球的精英士兵——地狱潜兵，被投放到异星战场对抗虫族 Terminids 和机械族 Automatons，用压倒性的火力为民主而战。游戏以其混乱搞笑的联机体验、战术火力和《星际战将》式的讽刺美学迅速成为现象级作品。",
+  "developers": [
+    {
+      "id": 21,
+      "name": "Arrowhead Game Studios"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 7,
+      "name": "PlayStation PC"
+    }
+  ],
+  "tags": [],
+  "gameplay": "四人合作第三人称 PvE 射击，呼叫轨道空袭、500KG 炸弹和各式空投机甲是核心玩法。友军误伤永远开启——被队友的火力误杀是游戏体验的一部分。动态难度系统根据玩家表现调整敌人密度和强度。星球战争由全服玩家共同推进，银河系地图持续变化。不同星球有不同环境——丛林、沙漠、冰冻废土。",
+  "recommendation": "2024 年现象级联机游戏。和三个朋友一起降落在虫群星球上，呼叫轨道轰炸、被队友误杀、在混乱中笑到肚子疼——这就是 Helldivers 2。讽刺超级爱国主义的黑色幽默贯穿始终，让种族灭绝虫子变成了最搞笑的派对活动。如果你有固定联机小队，这是今年的必玩游戏。",
+  "requirements": {
+    "minCpu": "Intel Core i7-4790K",
+    "minGpu": "NVIDIA GeForce GTX 1050 Ti",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-9700K",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "联机体验搞笑且混乱，友军误伤让每场战斗都充满戏剧性。",
+    "轨道火力和空投机甲带来了无与伦比的战术爽感。",
+    "讽刺性世界观和宣传片风格的幽默感贯穿始终。",
+    "服务器初期不稳定，多次扩容后才改善。",
+    "游戏循环略微重复，后期内容需要更多变化。",
+    "与朋友联机的乐趣远大于单人，建议组队体验。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-08-06",
+      "title": "自由升级大更新",
+      "summary": "新增更高难度等级、新敌人类型和社区挑战系统。"
+    },
+    {
+      "date": "2024-04-01",
+      "title": "销量突破 1200 万",
+      "summary": "Helldivers 2 成为 PlayStation 史上最畅销的 PC 首发游戏。"
+    }
+  ]
+}

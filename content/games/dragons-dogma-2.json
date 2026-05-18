@@ -1,0 +1,112 @@
+{
+  "id": 28,
+  "slug": "dragons-dogma-2",
+  "name": "龙之信条 2",
+  "released": "2024-03-22",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/library_hero.jpg",
+  "rating": 3.8,
+  "metacritic": 86,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "龙之信条 2 是 Capcom 开发的动作角色扮演游戏，是 2012 年经典作品的续作。玩家扮演被巨龙夺走心脏的觉醒者，与随从 Pawn 一同在广阔的幻想世界中冒险。游戏以其独特的攀爬大型怪物机制、创新的随从系统和动态的世界事件而闻名。",
+  "developers": [
+    {
+      "id": 9,
+      "name": "Capcom"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 9,
+      "name": "Capcom"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称开放世界 ARPG，标志性的攀爬大型敌人系统——可抓住狮鹫飞到空中、爬上独眼巨人头部攻击弱点。九种职业涵盖战士、法师、弓箭手等基础职业及魔剑士、幻术师等上级职业。随从 Pawn 系统允许玩家自创 AI 同伴，且可借用其他玩家的随从。动态世界包括昼夜变化影响敌人分布、随机遭遇大型怪物。",
+  "recommendation": "Capcom 最具野心的 RPG，攀爬巨兽的战斗方式独一无二——抓住狮鹫的脚飞上天空，在龙的背上砍下致命一击。随从系统和职业切换让每次冒险都有新鲜感。虽然 PC 版初期优化存在问题，但游戏的核心玩法无可替代。",
+  "requirements": {
+    "minCpu": "Intel Core i5-10600",
+    "minGpu": "NVIDIA GeForce GTX 1070",
+    "minRamGB": 16,
+    "minVramGB": 8,
+    "recCpu": "Intel Core i7-10700",
+    "recGpu": "NVIDIA GeForce RTX 2080",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "攀爬大型怪物的战斗体验独一无二，极具震撼力。",
+    "随从 Pawn 系统深度进化，AI 同伴的行为更加智能。",
+    "动态世界事件和昼夜系统让探索充满意外惊喜。",
+    "PC 版优化存在严重问题，大幅影响了首发体验。",
+    "主线剧情较薄弱，叙事驱动力不足。",
+    "职业系统丰富，每个职业都有独特的战斗风格。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-09-17",
+      "title": "大型更新改善性能",
+      "summary": "Capcom 发布更新大幅提升 PC 版帧率和稳定性，追加休闲模式。"
+    },
+    {
+      "date": "2024-06-01",
+      "title": "DLC 开发确认",
+      "summary": "Capcom 确认正在开发龙之信条 2 的大型扩展内容。"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 12,
+  "slug": "black-myth-wukong",
+  "name": "黑神话: 悟空",
+  "released": "2024-08-20",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 90,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 12,
+      "name": "神话",
+      "slug": "mythology"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "黑神话: 悟空 是由游戏科学开发的国产动作角色扮演游戏，以中国古典名著《西游记》为背景。玩家将扮演一位天命人，踏上寻找大圣遗留之物的旅程，迎战各路妖王。游戏以出色的画面表现、流畅的战斗系统和深厚的中国文化底蕴，成为中国游戏史上的里程碑之作。",
+  "developers": [
+    {
+      "id": 4,
+      "name": "游戏科学"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 4,
+      "name": "游戏科学"
+    }
+  ],
+  "tags": [],
+  "gameplay": "高速动作战斗为核心，如意棒三种架势（劈棍、立棍、戳棍）可实时切换。法术系统涵盖定身术、分身术、变身术等，每种有独特战术价值。变身系统允许玩家化身为已击败的妖王，使用其独有招式。无传统格挡，强调精准闪避和见切反击，Boss 战节奏紧凑。",
+  "recommendation": "中国游戏史上的里程碑，证明了国产 3A 的无限潜力。UE5 引擎打造的东方美学奇观令人屏息——每一帧都是壁纸。Boss 战设计精妙且极具挑战性，击败强敌的成就感不输任何国际大作。如果你热爱动作游戏和东方神话，这是必玩之作。",
+  "requirements": {
+    "minCpu": "Intel Core i5-8400",
+    "minGpu": "NVIDIA GeForce GTX 1060",
+    "minRamGB": 16,
+    "minVramGB": 6,
+    "recCpu": "Intel Core i7-9700",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "国产游戏的里程碑，画面表现力达到世界一流水平。",
+    "战斗系统流畅爽快，BOSS 设计各具特色，打击感极佳。",
+    "中式美学贯穿始终，场景设计充满东方韵味。",
+    "地图设计较为线性，缺少探索自由度。",
+    "优化表现出色，即使在中等配置下也能流畅运行。",
+    "UE5 引擎打造的画面令人叹为观止，光影效果惊艳。",
+    "剧情叙事较为隐晦，需要了解《西游记》背景才能完全理解。",
+    "音乐融合了中国传统乐器，配乐与场景完美契合。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-12-10",
+      "title": "获 TGA 最佳动作游戏",
+      "summary": "黑神话: 悟空在 TGA 2024 上斩获最佳动作游戏奖等多项大奖。"
+    },
+    {
+      "date": "2024-09-20",
+      "title": "销量突破 2000 万",
+      "summary": "游戏科学宣布全球销量突破 2000 万份，成为最畅销的国产单机游戏。"
+    },
+    {
+      "date": "2024-08-20",
+      "title": "一周年：免费 Boss Rush 模式上线",
+      "summary": "为庆祝发售一周年，新增 Boss 连战挑战模式与全新外观套装。"
+    }
+  ]
+}

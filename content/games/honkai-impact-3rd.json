@@ -1,0 +1,85 @@
+{
+  "id": 47,
+  "slug": "honkai-impact-3rd",
+  "name": "崩坏 3",
+  "released": "2016-10-14",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1671200/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 4.3,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "米哈游的成名之作，也是国产二次元动作手游的开创者。玩家扮演女武神「琪亚娜」等人，在崩坏侵蚀的世界中战斗。极致爽快的连招动作系统、精美的角色设计和宏大的崩坏系列世界观使其持续运营近十年仍然活力不减。",
+  "developers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "tags": [],
+  "gameplay": "三人小队高速动作战斗——QTE 换人连击是战斗核心。每个女武神（角色）有独特的攻击模组和必杀技。极限闪避触发时空断裂（敌人减速）。深渊和记忆战场是终局竞速挑战。主线剧情横跨多部，演出质量从早期逐渐进化到剧场版级别。后崩坏书扩展了开放世界探索要素。",
+  "recommendation": "崩坏 3 是米哈游梦开始的地方，也是理解原神和星穹铁道成功密码的关键。极致的动作手感、持续进化的技术力和一个延续了近十年的庞大故事——它奠定了米哈游「技术宅拯救世界」的口碑。即使今天入坑，《最后一课》《薪炎永燃》等名场面依然能让你感受到「为世界上所有的美好而战」的感染力。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "动作手游的天花板，连招手感和打击感顶级。",
+    "剧情从第9章开始起飞，催泪名场面频出。",
+    "角色设计和动画质量十年如一日的高水准。",
+    "后期养成线多，对新手略不友好。"
+  ],
+  "screenshots": [],
+  "news": []
+}

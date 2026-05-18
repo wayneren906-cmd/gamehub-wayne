@@ -1,0 +1,85 @@
+{
+  "id": 48,
+  "slug": "wuthering-waves",
+  "name": "鸣潮",
+  "released": "2024-05-23",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2590350/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 4,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "库洛游戏出品的开放世界动作 RPG，常被拿来与原神对比。玩家作为「漂泊者」在末日废土风格的世界中探索，通过「回音」系统吸收怪物能力为己所用。游戏以高速战斗、跑酷系统和较高操作上限著称，是动作游戏爱好者的福音。",
+  "developers": [
+    {
+      "id": 62,
+      "name": "Kuro Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 62,
+      "name": "Kuro Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "三人小队高速动作战斗——完美闪避触发「闪避反击」，弹反成功可发动强力的「逆势回击」。声骸系统类似宝可梦——击败怪物后可吸收其能力装备使用。跑酷系统允许蹬墙、滑索和高速冲刺。钩锁赋予出色的移动自由度。终局挑战「全息战略」难度极高，考验操作极限。",
+  "recommendation": "鸣潮是原神最有力的竞争者——它选择了一条更硬核的路线：更快的战斗节奏、更高的操作上限、更爽的跑酷体验。如果你觉得原神的战斗太简单，鸣潮提供了更接近动作游戏而非 RPG 的体验。声骸系统也是极具潜力的创新。虽然首发时争议不少，但库洛的持续优化态度值得肯定。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "高速战斗手感出色，动作流畅度极高。",
+    "声骸系统创意十足，收集乐趣满满。",
+    "跑酷和钩锁让探索更加自由。",
+    "首发优化欠佳，部分区域掉帧明显。"
+  ],
+  "screenshots": [],
+  "news": []
+}

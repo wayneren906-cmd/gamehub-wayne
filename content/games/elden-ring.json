@@ -1,0 +1,135 @@
+{
+  "id": 2,
+  "slug": "elden-ring",
+  "name": "艾尔登法环",
+  "released": "2022-02-25",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+  "rating": 4.7,
+  "metacritic": 96,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 11,
+      "name": "魂系",
+      "slug": "souls-like"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "艾尔登法环 是由 FromSoftware 开发、Bandai Namco 发行的动作角色扮演游戏。游戏由宫崎英高和《冰与火之歌》作者乔治·R·R·马丁联手打造。玩家将探索广袤的交界地，挑战半神，收集大卢恩，修复艾尔登法环，成为艾尔登之王。游戏以其无与伦比的开放世界设计、深度的战斗系统和宏大的世界观获得了全球玩家的盛赞。",
+  "developers": [
+    {
+      "id": 2,
+      "name": "FromSoftware"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 2,
+      "name": "Bandai Namco"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称动作 RPG，魂系战斗为核心——精准闪避、格挡与反击是生存关键。开放世界无缝衔接六大区域，地牢、城堡与隐藏 Boss 散落各处。自由构筑流派，近战、魔法、信仰、龙飨等数十种武器与战技可任意组合。灵马托雷特赋予骑乘战斗能力，大幅提升探索自由度。",
+  "recommendation": "FromSoftware 迄今最具野心的作品，将魂系的紧张战斗与开放世界的探索乐趣完美融合。即使你从未接触过魂系游戏，交界地的壮美与神秘也足以让你流连忘返。每一次发现隐藏地牢、击败强大 Boss 的成就感无可替代。2022 年 TGA 年度游戏，名副其实。",
+  "requirements": {
+    "minCpu": "Intel Core i5-8400",
+    "minGpu": "NVIDIA GeForce GTX 1060",
+    "minRamGB": 12,
+    "minVramGB": 3,
+    "recCpu": "Intel Core i7-8700K",
+    "recGpu": "NVIDIA GeForce GTX 1070",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "开放世界设计的教科书级作品，处处充满探索的惊喜和危险。",
+    "战斗系统极具深度，Boss 战设计精妙，每次胜利都充满成就感。",
+    "画面艺术风格独特，交界地的风景壮丽且诡异，令人难以忘怀。",
+    "难度较高，对新手不友好，缺乏明确的任务指引。",
+    "音乐壮丽恢弘，每个区域的配乐都完美烘托了氛围。",
+    "PC 版本初期存在优化问题，部分场景掉帧明显。",
+    "故事碎片化叙事风格独特，需要自行拼凑世界观。",
+    "游戏体量庞大，100 小时以上才能完全探索。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-06-21",
+      "title": "《黄金树幽影》DLC 正式发售",
+      "summary": "史上最大规模 DLC，新增广袤地图、数十个新 Boss 和武器。"
+    },
+    {
+      "date": "2024-02-25",
+      "title": "销量突破 2500 万",
+      "summary": "FromSoftware 宣布 Elden Ring 全球销量已达 2500 万份。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "获得 TGA 年度游戏",
+      "summary": "凭借无与伦比的开放世界设计获颁 The Game Awards 年度游戏大奖。"
+    }
+  ]
+}

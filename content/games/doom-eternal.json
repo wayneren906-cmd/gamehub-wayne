@@ -1,0 +1,107 @@
+{
+  "id": 21,
+  "slug": "doom-eternal",
+  "name": "毁灭战士: 永恒",
+  "released": "2020-03-20",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 89,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 6,
+      "name": "射击",
+      "slug": "shooter"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "毁灭战士: 永恒 是 id Software 开发的第一人称射击游戏，延续 DOOM (2016) 重启后的高速战斗风格。地狱大军入侵地球，毁灭战士必须再次挺身而出，在人类世界、地狱与天堂之间战场中穿梭，猎杀地狱祭司以拯救人类。游戏以其令人窒息的战斗节奏、重金属配乐和极致的爽快感著称。",
+  "developers": [
+    {
+      "id": 16,
+      "name": "id Software"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 10,
+      "name": "Bethesda Softworks"
+    }
+  ],
+  "tags": [],
+  "gameplay": "高速 FPS，强调永不停歇的移动和射击。弹药、护甲和生命值通过特定方式回复——电锯获取弹药、火焰喷射器获取护甲、荣耀击杀获取生命值。资源循环逼迫玩家不断切换武器和击杀方式。平台跳跃和解密元素穿插在战斗之间。战斗难度极高但节奏紧凑，每场遭遇战都如舞蹈般流畅。",
+  "recommendation": "FPS 战斗的终极形态——当重金属音乐响起，在地狱中高速移动、切换武器、撕裂恶魔的时刻，你感受到的是最纯粹的射击游戏爽快感。DOOM Eternal 不给你喘息的机会，但也正是这种压迫感让每次胜利都酣畅淋漓。如果你想要释放压力，这就是最好的选择。",
+  "requirements": {
+    "minCpu": "Intel Core i5 @ 3.3 GHz",
+    "minGpu": "NVIDIA GeForce GTX 1050 Ti",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-6700K",
+    "recGpu": "NVIDIA GeForce GTX 1060",
+    "recRamGB": 8,
+    "recVramGB": 6
+  },
+  "reviews": [
+    "FPS 战斗的终极进化，高速移动+资源管理的完美融合。",
+    "重金属配乐与战斗节奏天衣无缝，肾上腺素的极致释放。",
+    "武器设计各具特色，每把枪都有独特的战斗定位。",
+    "平台跳跃部分略显突兀，不是所有玩家都喜欢。",
+    "id Tech 7 引擎优化极佳，即使在中等配置上也能流畅运行。",
+    "DLC 古代众神提供了更疯狂和更有挑战性的战斗。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-06-08",
+      "title": "DOOM: The Dark Ages 公布",
+      "summary": "id Software 在 Xbox 发布会上正式公布系列新作，中世纪的毁灭战士形象引发热议。"
+    },
+    {
+      "date": "2023-10-01",
+      "title": "光线追踪更新",
+      "summary": "DOOM Eternal 获得光追支持和 DLSS 3，画面效果进一步提升。"
+    }
+  ]
+}

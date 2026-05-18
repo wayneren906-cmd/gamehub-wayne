@@ -1,0 +1,77 @@
+{
+  "id": 54,
+  "slug": "apex-mobile",
+  "name": "Apex 英雄手游",
+  "released": "2022-05-17",
+  "background_image": "https://img.apexm.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 5,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 10,
+      "name": "大逃杀",
+      "slug": "battle-royale"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "Respawn 的顶级大逃杀游戏在移动端的专属版本。保留端游标志性的「传奇」角色技能系统和快节奏枪战体验，针对移动端重新设计了操作界面和操控方式。独创的第九名模式为手游版专属。可惜 EA 在 2023 年已停止服务。",
+  "developers": [
+    {
+      "id": 69,
+      "name": "Respawn Entertainment"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 70,
+      "name": "Electronic Arts"
+    }
+  ],
+  "tags": [],
+  "gameplay": "三人小队英雄大逃杀——选择具有独特技能的传奇角色（探路者、恶灵、直布罗陀等）与队友配合。移动端优化后的 TPS 视角和射击操作。滑铲、爬墙等跑酷技巧保留。标记轮盘沟通系统方便没有语音的队友交流。武器配件系统与端游一致，拾取和背包管理简化。",
+  "recommendation": "Apex 手游曾是移动端最接近端游素质的大逃杀体验——流畅的动作系统和传奇技能的战术深度在同类手游中独一档。遗憾的是 EA 在 2023 年 5 月关闭了服务。这里收录它，是为了纪念这款短暂但出色的手游。如果你怀念它，可以试试端游版或等待未来的《战地》手游。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "移动端最还原端游体验的大逃杀。",
+    "传奇技能系统带来丰富战术深度。",
+    "操作优化出色，触屏射击体验佳。",
+    "已于2023年停止服务，留下遗憾。"
+  ],
+  "screenshots": [],
+  "news": []
+}

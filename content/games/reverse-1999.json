@@ -1,0 +1,77 @@
+{
+  "id": 51,
+  "slug": "reverse-1999",
+  "name": "重返未来：1999",
+  "released": "2023-10-26",
+  "background_image": "https://img.reverse1999.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.2,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "Bluepoch 出品的英伦复古风策略卡牌 RPG。在时间被「暴雨」倒流的 20 世纪，唯一能免疫时间倒退的「司辰」维尔汀将带领神秘学家们穿越不同年代，寻找拯救世界的真相。全英文配音的舞台剧风格演出和独特的卡牌融合玩法令人耳目一新。",
+  "developers": [
+    {
+      "id": 66,
+      "name": "Bluepoch"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 66,
+      "name": "Bluepoch"
+    }
+  ],
+  "tags": [],
+  "gameplay": "卡牌合成策略——每回合获得随机技能卡，两张同星卡可合成更高星级的强化版本，产生更强效果。角色自动攻击，玩家专注卡牌选择与合成策略。剧情全英文配音，舞台剧式演出质量极高。每次大版本前往一个全新年代（1920年代、1960年代等），美术风格随之变化。",
+  "recommendation": "重返未来 1999 是近年来最具「腔调」的二次元手游。英伦复古美学、全英伦配音、舞台剧式叙事——它在美术和演出上走了一条无人走过的路。卡牌合成机制让每回合都充满选择与策略。如果你喜欢文艺片和独特美学，1999 会让你一见钟情。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "英伦复古美学独一无二，艺术品级别。",
+    "全英文配音和舞台剧演出质量极高。",
+    "卡牌合成机制有策略深度。",
+    "玩法相对简单，深度有限。"
+  ],
+  "screenshots": [],
+  "news": []
+}

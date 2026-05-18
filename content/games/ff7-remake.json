@@ -1,0 +1,99 @@
+{
+  "id": 23,
+  "slug": "ff7-remake",
+  "name": "最终幻想 7 重制版",
+  "released": "2022-06-17",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 89,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "最终幻想 7 重制版 是 Square Enix 对 1997 年经典 RPG 的全面重制，以现代技术重新诠释了米德加的冒险。游戏讲述雇佣兵克劳德加入反神罗组织雪崩，对抗能源巨头神罗公司的故事。重制版将原作的回合制战斗革新为实时动作系统，同时大幅扩展了角色和世界观深度。",
+  "developers": [
+    {
+      "id": 18,
+      "name": "Square Enix"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 18,
+      "name": "Square Enix"
+    }
+  ],
+  "tags": [],
+  "gameplay": "实时动作+指令菜单的混合战斗系统，ATB 槽满后可暂停时间选择技能、魔法和极限技。四个可操控角色各有独特战斗风格——克劳德的破坏剑、蒂法的拳击连段、巴雷特的远程射击、爱丽丝的魔法支援。武器升级盘提供深度定制。米德加的城市探索线性但场景密度极高。",
+  "recommendation": "对经典的完美致敬与大胆革新。从蒂法的战斗动作到爱丽丝的鲜花，每一个像素都散发着对原作的深爱。战斗系统是 Square Enix 近年来最好的——既保持策略深度又有动作的爽快感。如果你是 FF7 老玩家，重制版的改动会让你又哭又笑；如果是新玩家，这是了解经典的最佳途径。",
+  "requirements": {
+    "minCpu": "Intel Core i5-3330",
+    "minGpu": "NVIDIA GeForce GTX 780",
+    "minRamGB": 8,
+    "minVramGB": 3,
+    "recCpu": "Intel Core i7-3770",
+    "recGpu": "NVIDIA GeForce GTX 1080",
+    "recRamGB": 12,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "对经典的致敬与革新达到完美平衡，角色塑造超越原作。",
+    "战斗系统融合了动作的爽快和 RPG 的策略深度。",
+    "音乐重编版恢弘壮丽，植松伸夫的旋律经过现代管弦乐编排后更加动人。",
+    "流程偏线性，缺少原作的世界地图探索。",
+    "PC 版优化一般，部分场景存在着色器编译卡顿。",
+    "剧情改动大胆且有争议，老玩家反应两极分化。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-02-29",
+      "title": "FF7 重生登陆 PC",
+      "summary": "最终幻想 7 重生 PC 版正式发售，Metacritic 评分 92。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "TGA 最佳 RPG 提名",
+      "summary": "FF7 重生获 TGA 年度游戏和最佳 RPG 提名。"
+    }
+  ]
+}

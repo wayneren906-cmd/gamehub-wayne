@@ -1,0 +1,74 @@
+{
+  "id": 36,
+  "slug": "metroid-prime-remastered",
+  "name": "银河战士究极复刻",
+  "released": "2023-02-08",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/m/metroid-prime-remastered-switch/hero",
+  "hero_image": "",
+  "rating": 4.6,
+  "metacritic": 94,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 5,
+      "name": "射击",
+      "slug": "shooter"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "被广泛认为是有史以来最伟大的游戏之一的华丽复刻。萨姆斯·阿兰首次以第一人称视角探索神秘的外星世界 Tallon IV。重制版保留了原版精妙的关卡设计和孤绝的氛围感，同时以全新的高清画面、现代化双摇杆操控和重制音轨让经典重生。",
+  "developers": [
+    {
+      "id": 53,
+      "name": "Retro Studios"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第一人称探索冒险——不是传统射击游戏，而是「第一人称银河城」。扫描面罩是核心机制：扫描环境中一切物体获取信息和弱点。逐步获得新能力（变形球、导弹、热成像面罩等），解锁之前无法到达的区域。Boss 战强调观察与策略，而非纯粹火力。",
+  "recommendation": "游戏史上不朽的杰作，证明了第一人称视角同样可以做出完美的银河城体验。孤身一人在外星世界探索的沉浸感无与伦比。复刻版的画面升级让这部 2002 年的经典在 2023 年看起来毫不违和。94 分——这就是 Metroid Prime 的分量。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "第一人称银河城的完美演绎，探索感无与伦比。",
+    "氛围营造大师级，孤绝的外星世界令人沉浸。",
+    "复刻画面精美，现代操控让旧作焕发新生。",
+    "关卡设计经得起时间的考验。"
+  ],
+  "screenshots": [],
+  "news": []
+}

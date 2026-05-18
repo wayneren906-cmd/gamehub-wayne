@@ -1,0 +1,69 @@
+{
+  "id": 33,
+  "slug": "pokemon-scarlet-violet",
+  "name": "宝可梦 朱/紫",
+  "released": "2022-11-18",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/p/pokemon-scarlet-switch/hero",
+  "hero_image": "",
+  "rating": 3.8,
+  "metacritic": 72,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone"
+  },
+  "description_raw": "宝可梦系列首个真正意义上的开放世界作品。玩家将以帕底亚地区的学生身份，自由选择三条故事线——道馆挑战、传说之路和星尘之路。新增的「太晶化」战斗机制让每只宝可梦都能改变自身属性，带来前所未有的对战策略深度。",
+  "developers": [
+    {
+      "id": 52,
+      "name": "Game Freak"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "完全开放世界——三条主线可按任意顺序推进。野外宝可梦全明雷显示，无需进入战斗即可观察。太晶化系统让宝可梦属性临时改变，对战策略性极大提升。Let's Go 功能让宝可梦自动战斗刷经验。联机模式下可与好友一起探索帕底亚。新增 100+ 只全新宝可梦。",
+  "recommendation": "尽管发售初期因性能问题饱受批评，但朱紫的核心设计是宝可梦系列最具革新意义的一代。开放世界的自由感、三条故事线的叙事尝试、太晶化的战术深度都值得肯定。如果能接受技术层面的不完美，这是近年来最好玩的宝可梦游戏。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "开放世界宝可梦的梦想终于实现，探索自由度极高。",
+    "故事线感人至深，角色塑造是系列最佳。",
+    "性能表现堪忧，掉帧和BUG影响体验。",
+    "太晶化对战系统设计精妙，战术深度远超预期。"
+  ],
+  "screenshots": [],
+  "news": []
+}

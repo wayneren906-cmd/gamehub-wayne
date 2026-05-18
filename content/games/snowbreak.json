@@ -1,0 +1,85 @@
+{
+  "id": 52,
+  "slug": "snowbreak",
+  "name": "尘白禁区",
+  "released": "2023-07-20",
+  "background_image": "https://img.snowbreak.com/cover.jpg",
+  "hero_image": "",
+  "rating": 3.9,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 5,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "Amazing Seasun 出品的科幻第三人称射击 RPG。玩家作为「分析员」指挥拥有超自然能力的「天启者」少女们，在泰坦物质污染的隔离区中战斗。游戏以掩体射击、角色技能连携和PVE副本为核心，在国产手游中属于少见的高规格射击品类。",
+  "developers": [
+    {
+      "id": 67,
+      "name": "Amazing Seasun"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 67,
+      "name": "Amazing Seasun"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称掩体射击——躲在掩体后射击，翻滚转移位置。三名天启者同时出站，可实时切换操控。每个角色有独特枪械类型和技能（护盾、治疗、范围伤害等）。副本为线性关卡推进，BOSS 战需要利用机制和弱点击破。武器和圣遗物（芯片）是核心养成线。",
+  "recommendation": "尘白禁区填补了国产手游中科幻射击的空白。虽然是免费游戏，但射击手感和技能设计并不敷衍。如果你喜欢 PvE 射击体验和收集角色的乐趣，尘白禁区是一个不错的选择。不过内容更新速度和质量存在一定波动。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "国产手游中少有的硬核射击体验。",
+    "角色设计精致，天启者各有特色。",
+    "掩体射击手感中规中矩。",
+    "内容量偏少，更新速度待提升。"
+  ],
+  "screenshots": [],
+  "news": []
+}

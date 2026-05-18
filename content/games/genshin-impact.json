@@ -1,0 +1,93 @@
+{
+  "id": 41,
+  "slug": "genshin-impact",
+  "name": "原神",
+  "released": "2020-09-28",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1905820/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 4.3,
+  "metacritic": 84,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "米哈游打造的开放世界动作 RPG 现象级作品。在提瓦特大陆上，你将作为「旅行者」穿越七国，寻找失散的亲人。游戏以免费游玩+抽卡付费模式运营，凭借顶级的二次元美术、元素反应战斗系统和持续高质量内容更新，成为全球最成功的国产游戏。",
+  "developers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "tags": [],
+  "gameplay": "四人小队实时切换战斗——七种元素（火水风雷冰草岩）间的反应是战斗核心。开放世界探索：攀爬、滑翔、游泳无体力限制。每六周一次大版本更新，持续新增地图、角色和剧情。深境螺旋是核心终局挑战。角色通过抽卡获得，0 氪也可体验全部剧情和开放世界。",
+  "recommendation": "不只是「国产塞尔达」——原神已经成长为一个现象级的跨平台游戏生态。顶级的二次元美术、持续进化的开放世界、深度的元素战斗系统，以及每六周稳定更新的内容量，让这款游戏持续吸引着全球数千万玩家。如果你能接受抽卡模式，提瓦特大陆值得你投入时间。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "二次元美术天花板，每帧都是壁纸。",
+    "元素反应系统深度与爽感兼备。",
+    "持续更新内容量惊人，地图每一版都在进步。",
+    "抽卡机制对免费玩家不太友好。"
+  ],
+  "screenshots": [],
+  "news": []
+}

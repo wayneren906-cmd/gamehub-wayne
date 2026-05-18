@@ -1,0 +1,98 @@
+{
+  "id": 8,
+  "slug": "zelda-tears-of-the-kingdom",
+  "name": "塞尔达传说: 王国之泪",
+  "released": "2023-05-12",
+  "background_image": "/covers/zelda-totk.jpg",
+  "hero_image": "/covers/zelda-totk.jpg",
+  "rating": 4.7,
+  "metacritic": 96,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "塞尔达传说: 王国之泪是任天堂开发的开放世界动作冒险游戏，是《旷野之息》的正统续作。林克与塞尔达在海拉鲁城堡地下发现远古壁画后，被卷入一场跨越天空与地底的宏大冒险。游戏在保留前作开放世界自由探索精神的基础上，引入了全新的创造与建造机制，将玩法可能性推向了前所未有的高度。",
+  "developers": [
+    {
+      "id": 8,
+      "name": "Nintendo EPD"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 8,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "究极手系统允许玩家拼接任何物体，建造载具、桥梁、飞行器等装置。余料建造可将一切材料与武器融合，创造独特装备。通天术让林克可穿越天花板直达上层，彻底改变了探索方式。天空群岛、地表海拉鲁与地下深渊三层世界构成垂直探索空间，地图规模为前作两倍以上。",
+  "recommendation": "重新定义了开放世界游戏的自由度上限。究极手建造系统的创造力空间近乎无限——别人在玩动作冒险，你在造高达、造轰炸机、造自动化生产线。三层世界叠加近百小时的内容密度，每一处都藏着惊喜。如果你只能玩一款 Switch 游戏，毫无疑问是它。",
+  "requirements": {
+    "minCpu": "Nintendo Switch 独占",
+    "minGpu": "Nintendo Switch 独占",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "Nintendo Switch 独占",
+    "recGpu": "Nintendo Switch 独占",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "究极手建造系统彻底改变了开放世界玩法，创造力无限。",
+    "三层世界——天空、地表、地下——的垂直探索体验震撼人心。",
+    "叙事比前作更加强烈和感人，龙之泪任务线令人泪目。",
+    "Switch 机能限制了画面表现，部分场景帧率不稳。",
+    "神庙解密设计精巧，充分利用新能力。",
+    "地底世界的探索氛围紧张刺激，完全不同的生存体验。"
+  ],
+  "screenshots": [
+    "/covers/zelda-totk.jpg",
+    "/covers/zelda-totk.jpg",
+    "/covers/zelda-totk.jpg",
+    "/covers/zelda-totk.jpg",
+    "/covers/zelda-totk.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-09-26",
+      "title": "塞尔达传说新作公布",
+      "summary": "任天堂宣布全新的 2D 塞尔达传说《智慧的再现》，塞尔达首次作为可控主角。"
+    },
+    {
+      "date": "2024-05-12",
+      "title": "王国之泪一周年纪念",
+      "summary": "全球销量突破 2000 万份，玩家社区创作了大量令人惊叹的究极手作品。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "获 TGA 最佳动作/冒险游戏",
+      "summary": "TGA 2023 上王国之泪获最佳动作冒险游戏奖。"
+    }
+  ]
+}

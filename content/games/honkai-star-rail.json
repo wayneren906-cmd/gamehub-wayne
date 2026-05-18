@@ -1,0 +1,85 @@
+{
+  "id": 42,
+  "slug": "honkai-star-rail",
+  "name": "崩坏：星穹铁道",
+  "released": "2023-04-26",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2183820/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 4.4,
+  "metacritic": 80,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "HoYoverse 出品的太空科幻题材回合制 RPG。玩家将乘坐「星穹列车」穿梭于群星之间，探索不同星球上的文明与危机。继承了崩坏系列的优秀叙事基因，配合高速回合制战斗和箱庭探索，开创了国产回合制手游的新标杆。",
+  "developers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 58,
+      "name": "HoYoverse"
+    }
+  ],
+  "tags": [],
+  "gameplay": "高速回合制战斗——角色按速度属性排序行动，必杀技可插入任意时机释放。击破弱点（属性克制）造成额外伤害和推条效果。箱庭式地图探索，每个星球有独特主题。模拟宇宙和忘却之庭是核心终局模式。遗器（装备）刷取是养成核心。持续更新主线剧情和新星球。",
+  "recommendation": "如果说原神是 HoYoverse 的动作 RPG 巅峰，星穹铁道就是他们对经典 JRPG 的致敬。出色的剧本、全语音演出、高速爽快的回合战斗——它证明了回合制在移动端同样可以做出令人上瘾的深度。科幻迷和 JRPG 爱好者都不应错过。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "剧本和角色塑造是一流水准。",
+    "回合制战斗爽快且策略性强。",
+    "科幻世界观设定新颖有趣。",
+    "后期内容消耗较快，长草期明显。"
+  ],
+  "screenshots": [],
+  "news": []
+}

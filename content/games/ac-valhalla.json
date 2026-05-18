@@ -1,0 +1,112 @@
+{
+  "id": 30,
+  "slug": "ac-valhalla",
+  "name": "刺客信条: 英灵殿",
+  "released": "2020-11-10",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/library_hero.jpg",
+  "rating": 4,
+  "metacritic": 83,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "刺客信条: 英灵殿 是 Ubisoft 开发的刺客信条系列作品，以公元 9 世纪的北欧维京时代为背景。玩家扮演维京掠夺者艾沃尔，带领族人离开饱受战乱的挪威，前往英格兰建立新的定居点。游戏融合了壮阔的北欧神话、残酷的维京战斗和系列经典的潜行暗杀机制。",
+  "developers": [
+    {
+      "id": 23,
+      "name": "Ubisoft"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 23,
+      "name": "Ubisoft"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称开放世界 RPG，战斗风格强调双持武器的重击感——可双持战斧、大盾甚至双盾。劫掠系统允许带领长船突袭英格兰修道院和城堡。定居点建设是核心系统，通过升级铁匠铺、军营等设施解锁新能力。维京盛宴和饮酒小游戏增添了文化沉浸感。奥丁之眼取代传统鹰眼，神话线可探索阿斯加德。",
+  "recommendation": "刺客信条系列最宏大的开放世界之一——从挪威的冰雪峡湾到英格兰的翠绿丘陵，维京时代的历史感扑面而来。双持武器的战斗手感沉重有力，劫掠修道院的爽快感十足。如果你是维京文化爱好者，这趟从挪威到英格兰的史诗旅程值得投入。",
+  "requirements": {
+    "minCpu": "Intel Core i5-4460",
+    "minGpu": "NVIDIA GeForce GTX 960",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-4790",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "维京时代的沉浸感极强，挪威峡湾的风景令人叹为观止。",
+    "双持武器战斗沉重有力，不同武器组合有独特的战斗体验。",
+    "定居点系统增加了归属感，看着家园逐渐发展很有成就感。",
+    "流程过于冗长，主线+支线超 100 小时容易疲劳。",
+    "神话线探索阿斯加德是游戏最美妙的章节。",
+    "Steam 版支持成就，终于告别了育碧启动器困扰。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-05-15",
+      "title": "刺客信条: 暗影公布",
+      "summary": "育碧公布日本背景刺客信条新作，背景设定在封建日本，双主角系统。"
+    },
+    {
+      "date": "2023-12-06",
+      "title": "英灵殿最终更新",
+      "summary": "育碧发布英灵殿最后一次内容更新，为艾沃尔的旅程画上句号。"
+    }
+  ]
+}

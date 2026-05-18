@@ -1,0 +1,69 @@
+{
+  "id": 34,
+  "slug": "splatoon-3",
+  "name": "喷射战士 3",
+  "released": "2022-09-09",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/s/splatoon-3-switch/hero",
+  "hero_image": "",
+  "rating": 4.3,
+  "metacritic": 83,
+  "genres": [
+    {
+      "id": 5,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone 10+"
+  },
+  "description_raw": "任天堂最具创意的第三人称射击游戏系列第三作。在蛮颓镇——一个废土风格的新城市中，乌贼与章鱼们的对战更加激烈。新增「斯普拉遁」单人战役模式、新武器类型「猎鱼弓」和「刮水刀」，以及全新的卡牌对战小游戏。",
+  "developers": [
+    {
+      "id": 51,
+      "name": "Nintendo EPD"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "4v4 领地争夺为核心——用墨水涂满地面比击杀更重要。可在墨水中潜行游动，恢复弹药的同时高速位移。武器类型丰富：射枪、滚筒、画笔、桶、弓、双枪等各具特色。每赛季新增装备和地图，保持对战新鲜感。打工模式提供 PvE 合作体验。",
+  "recommendation": "任天堂最潮最酷的多人射击游戏，将色彩、音乐与竞技完美融合。没有传统射击游戏的暴力和血腥，取而代之的是街头文化和创意表达。无论你是休闲玩家还是竞技爱好者，都能在涂地大战中找到乐趣。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "墨水机制创新十足，涂地玩法比击杀更有深度。",
+    "音乐和美术风格独树一帜，潮流感拉满。",
+    "联机体验流畅，匹配速度快。",
+    "单人战役内容丰富，关卡设计巧妙。"
+  ],
+  "screenshots": [],
+  "news": []
+}

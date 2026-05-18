@@ -1,0 +1,77 @@
+{
+  "id": 60,
+  "slug": "uma-musume",
+  "name": "赛马娘 Pretty Derby",
+  "released": "2021-02-24",
+  "background_image": "https://img.umamusume.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.3,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 6,
+      "name": "模拟",
+      "slug": "simulation"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone"
+  },
+  "description_raw": "Cygames 出品的现象级养成模拟手游。将日本真实赛马拟人化为活泼可爱的「赛马娘」，玩家作为训练员培养她们在赛场上奔跑夺冠。肉鸽式的养成系统和高质量的 3D 赛跑演出使其在日服长期霸榜，国服由 B 站代理。",
+  "developers": [
+    {
+      "id": 76,
+      "name": "Cygames"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 76,
+      "name": "Cygames"
+    }
+  ],
+  "tags": [],
+  "gameplay": "Roguelike 养成模拟——每位赛马娘通过「培育」过程（类似肉鸽）随机触发训练、比赛、事件，最终培养出一匹可以出赛的强力马娘。培育中属性增长、技能获取和疲劳管理都是核心决策。3D 赛跑演出质量极高，解说系统还原真实竞马氛围。PvP 竞技场和团队战提供终局挑战。",
+  "recommendation": "赛马娘是日本手游圈的现象级作品——它将肉鸽养成和偶像文化结合，创造了一种前所未有的游戏体验。Cygames 的 3D 赛跑演出水准堪比主机游戏，角色的羁绊故事也温暖动人。不过 Roguelike 养成模式需要一定肝度，国服玩家建议参考日服攻略提前规划。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "肉鸽养成机制创新，每次培育都不同。",
+    "3D 赛跑演出质量顶级，解说氛围拉满。",
+    "角色羁绊故事温暖有趣。",
+    "需要大量重复培育，肝度偏高。"
+  ],
+  "screenshots": [],
+  "news": []
+}

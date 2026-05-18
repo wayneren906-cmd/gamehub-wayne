@@ -1,0 +1,69 @@
+{
+  "id": 37,
+  "slug": "xenoblade-chronicles-3",
+  "name": "异度神剑 3",
+  "released": "2022-07-29",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/x/xenoblade-chronicles-3-switch/hero",
+  "hero_image": "",
+  "rating": 4.5,
+  "metacritic": 89,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "在永恒的战争中，六名来自敌对阵营的年轻士兵意外走到了一起，踏上了寻找「真正敌人」的旅程。Monolith Soft 打造的宏大 RPG 三部曲终章，将系列标志性的广阔开放世界、深奥战斗系统和哲思叙事推向新的高度。",
+  "developers": [
+    {
+      "id": 54,
+      "name": "Monolith Soft"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "即时制战斗融合深度策略——每名角色可在多个职业间切换，战斗中可随时更换。队伍 6 人同时参战，通过「灵魂连结」系统实现连锁攻击。探索广阔无缝的 Aionios 世界，每个区域都有独特生态系统。支线任务和英雄故事极丰富，通关后内容超过 100 小时。",
+  "recommendation": "Switch 上最宏大的 JRPG 体验之一。战斗系统深不可测，职业搭配的乐趣足以让你沉迷数十个小时。故事从战争的残酷切入，逐渐展开对生命意义的思考——这是一部敢于提出深刻问题的作品。如果你热爱日式 RPG，异度神剑 3 不容错过。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "JRPG 的巅峰之作，战斗系统深奥且上瘾。",
+    "故事立意深刻，对生命与战争的探讨令人动容。",
+    "开放世界规模惊人，探索感极佳。",
+    "职业自由切换让队伍配置充满可能性。"
+  ],
+  "screenshots": [],
+  "news": []
+}

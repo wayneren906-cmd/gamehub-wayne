@@ -1,0 +1,125 @@
+{
+  "id": 9,
+  "slug": "resident-evil-4-remake",
+  "name": "生化危机 4 重制版",
+  "released": "2023-03-24",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_hero.jpg",
+  "rating": 4.3,
+  "metacritic": 92,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 6,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 12,
+      "name": "恐怖",
+      "slug": "horror"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "生化危机 4 重制版 是 Capcom 对 2005 年经典生存恐怖游戏的全面重制。特工里昂·S·肯尼迪奉命前往西班牙偏远村庄，营救被邪教组织绑架的总统女儿阿什莉。游戏在保留原作精髓的基础上，以 RE 引擎重新构建了全部画面和系统，将恐怖氛围与动作射击的平衡推向新的高度。",
+  "developers": [
+    {
+      "id": 9,
+      "name": "Capcom"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 9,
+      "name": "Capcom"
+    }
+  ],
+  "tags": [],
+  "gameplay": "越肩视角第三人称射击，战斗强调资源管理和精准射击。新增小刀格挡机制，可格挡飞斧、电锯甚至投矛。商人系统提供武器升级和宝物兑换。潜行暗杀系统为战斗提供更多战术选择。附身模式让玩家体验阿什莉的视角，增加了恐怖感。",
+  "recommendation": "史上最佳重制游戏之一。RE 引擎将原作的恐怖氛围和动作手感全面现代化，小刀格挡等新机制让战斗更具深度。即使你玩过原版，重制版的敌人 AI 和关卡调整也会带来全新体验。恐怖与爽快射击的完美平衡。",
+  "requirements": {
+    "minCpu": "Intel Core i5-7500",
+    "minGpu": "NVIDIA GeForce GTX 1050 Ti",
+    "minRamGB": 8,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-8700",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "RE 引擎带来的画面进化令人震惊，恐怖氛围渲染出色。",
+    "战斗系统在原作基础上完美进化，枪械手感一流。",
+    "小刀格挡机制让战斗节奏更加紧张刺激。",
+    "内容相较原版有些删减，部分关卡被精简。",
+    "原作经典桥段得到忠实还原的同时加入了新意。",
+    "佣兵模式回归，为通关后提供了充足的重复可玩性。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-09-24",
+      "title": "黄金版发布",
+      "summary": "RE4 重制版黄金版包含所有 DLC 和佣兵模式新增角色。"
+    },
+    {
+      "date": "2024-02-01",
+      "title": "Separate Ways DLC 好评如潮",
+      "summary": "艾达王篇 DLC 获得超高评价，被认为是 DLC 制作的典范。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "获 TGA 最佳动作游戏提名",
+      "summary": "RE4 重制版在 TGA 2023 获多项提名。"
+    }
+  ]
+}

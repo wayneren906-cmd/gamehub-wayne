@@ -1,0 +1,107 @@
+{
+  "id": 24,
+  "slug": "diablo-4",
+  "name": "暗黑破坏神 4",
+  "released": "2023-06-06",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/library_hero.jpg",
+  "rating": 3.8,
+  "metacritic": 86,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "暗黑破坏神 4 是 Blizzard Entertainment 开发的暗黑系列正统续作，回归系列黑暗血腥的根源。故事设定在暗黑破坏神 3 数十年后的庇护之地，莉莉丝——憎恨之王墨菲斯托的女儿——被召唤回这个世界。玩家将在广阔的开放世界中对抗地狱大军、收集传奇装备、解锁强大的技能与天赋。",
+  "developers": [
+    {
+      "id": 19,
+      "name": "Blizzard Entertainment"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 19,
+      "name": "Blizzard Entertainment"
+    }
+  ],
+  "tags": [],
+  "gameplay": "俯视角等距 ARPG，五大职业——野蛮人、法师、德鲁伊、游侠、死灵法师各有独特机制。技能树+巅峰面板提供深度构筑空间。开放世界设计为系列首次，可无缝探索五大区域，世界 Boss 和地狱狂潮等公共事件随时触发。赛季模式每三个月刷新主题和机制，保持长期可玩性。",
+  "recommendation": "暗黑系列最黑暗、最宏大的一作。开放世界让庇护之地的探索感大幅提升，世界 Boss 战斗场面宏大。战斗的爽快感依旧是暗黑的核心——成群结队地消灭恶魔、收集传奇装备的循环令人上瘾。如果你是刷宝 ARPG 爱好者，D4 是当今最好的选择之一，且赛季模式持续注入新鲜血液。",
+  "requirements": {
+    "minCpu": "Intel Core i5-2500K",
+    "minGpu": "NVIDIA GeForce GTX 660",
+    "minRamGB": 8,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i7-8700K",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "暗黑系列回归黑暗根源，美术风格和氛围塑造出色。",
+    "战斗爽快感依旧顶级，刷装备的循环令人沉迷。",
+    "开放世界设计为系列注入新鲜感，世界 Boss 战壮观。",
+    "赛季更新节奏良好，每个赛季都有新鲜内容。",
+    "后期内容深度不足，装备系统有待打磨。",
+    "Steam 版体验流畅，与战网版数据互通。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-10-07",
+      "title": "憎恨之躯扩展包上线",
+      "summary": "首个大型资料片带来新职业魂灵师、新区域纳汉图和 Mercenaries 系统。"
+    },
+    {
+      "date": "2024-05-14",
+      "title": "第四赛季大改版",
+      "summary": "全面重做装备系统，新增淬炼和精铸机制，广受好评。"
+    }
+  ]
+}

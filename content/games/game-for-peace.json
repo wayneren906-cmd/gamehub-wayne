@@ -1,0 +1,77 @@
+{
+  "id": 46,
+  "slug": "game-for-peace",
+  "name": "和平精英",
+  "released": "2019-05-08",
+  "background_image": "https://img.pubgmobile.com/cover/game-for-peace.jpg",
+  "hero_image": "",
+  "rating": 4,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 5,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 10,
+      "name": "大逃杀",
+      "slug": "battle-royale"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "腾讯光子工作室打造的战术竞技手游，PUBG 正版授权。100 名玩家从飞机上跳伞降落到 8x8km 大地图中，搜集武器物资、驾驶载具、在缩圈压力下生存到最后。凭借出色的枪械手感、广阔的战术选择和持续的模式创新，成为中国最受欢迎的射击手游。",
+  "developers": [
+    {
+      "id": 61,
+      "name": "Lightspeed Studios"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 60,
+      "name": "Tencent"
+    }
+  ],
+  "tags": [],
+  "gameplay": "百人战术竞技——跳伞选择落点，搜刮武器、防具和物资，在不断缩小的安全区内成为最后存活者。枪械种类丰富，配件系统影响武器手感。载具、投掷物、地形掩体提供丰富战术选择。除经典模式外还有团队竞技、地铁逃生等衍生模式。高画质下光影和场景细节出色。",
+  "recommendation": "如果你想在手机上体验最接近端游的战术竞技体验，和平精英是唯一的选择。枪械手感、地图设计和战术深度在移动端无出其右。丰富的模式和持续的赛季更新让它保持了长期吸引力。尽管对新手枪法有一定门槛，但团队配合可以弥补个人技术的不足。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "移动端战术竞技标杆，枪械手感出色。",
+    "地图设计优秀，战术选择丰富。",
+    "画质在移动端属顶级水平。",
+    "氪金皮肤不影响平衡性，值得好评。"
+  ],
+  "screenshots": [],
+  "news": []
+}

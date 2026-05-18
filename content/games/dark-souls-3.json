@@ -1,0 +1,112 @@
+{
+  "id": 16,
+  "slug": "dark-souls-3",
+  "name": "黑暗之魂 3",
+  "released": "2016-04-12",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 89,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 11,
+      "name": "魂系",
+      "slug": "souls-like"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "黑暗之魂 3 是 FromSoftware 开发的魂系动作角色扮演游戏的集大成之作。初火将熄，钟声响起，古老的薪王们从坟墓中苏醒，不死人再次踏上传承初火的旅程。游戏汇集了系列最精华的关卡设计、最宏大的 Boss 战和最悲壮的世界观，为黑暗之魂三部曲画上了完美的句号。",
+  "developers": [
+    {
+      "id": 2,
+      "name": "FromSoftware"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 2,
+      "name": "Bandai Namco"
+    }
+  ],
+  "tags": [],
+  "gameplay": "经典魂系第三人称动作 RPG，体力管理、精准闪避和盾牌格挡是生存三大要素。武器类别多达数十种，力量、敏捷、智力、信仰四大流派各有独特装备和法术。篝火存档点覆盖全图，死亡后魂掉落需返回拾取。在线模式支持合作通关和 PvP 入侵。DLC 画中世界和环印城提供更难的挑战。",
+  "recommendation": "魂系三部曲的完美收官之作，汇集了系列所有精华。Boss 战设计达到巅峰——无名王者、芙莉德修女、盖尔爷爷……每一场都是艺术品般的死斗体验。如果你体验了艾尔登法环后想追溯其源头，黑魂 3 是魂系最好的入门和终点。",
+  "requirements": {
+    "minCpu": "Intel Core i3-2100",
+    "minGpu": "NVIDIA GeForce GTX 750 Ti",
+    "minRamGB": 4,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i7-3770",
+    "recGpu": "NVIDIA GeForce GTX 970",
+    "recRamGB": 8,
+    "recVramGB": 4
+  },
+  "reviews": [
+    "Boss 战设计的巅峰之作，每场战斗都是视觉与操作的完美结合。",
+    "关卡设计环环相扣，捷径和隐藏区域的布局令人叹为观止。",
+    "环形地图设计让探索充满惊喜，回到起点的瞬间令人震撼。",
+    "难度曲线合理，适合新手入坑魂系。",
+    "DLC 质量极高，环印城的末世场景令人难忘。",
+    "部分武器平衡性欠佳，PvP 环境有待改进。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-04-12",
+      "title": "黑暗之魂 3 八周年",
+      "summary": "社区举办八周年纪念活动，回顾这款魂系集大成之作的辉煌历程。"
+    },
+    {
+      "date": "2023-06-20",
+      "title": "在线服务恢复",
+      "summary": "FromSoftware 修复了存在已久的安全漏洞，在线功能全面恢复。"
+    }
+  ]
+}

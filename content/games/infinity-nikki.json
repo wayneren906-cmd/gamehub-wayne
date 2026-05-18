@@ -1,0 +1,85 @@
+{
+  "id": 50,
+  "slug": "infinity-nikki",
+  "name": "无限暖暖",
+  "released": "2024-12-05",
+  "background_image": "https://img.infinity-nikki.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.1,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 6,
+      "name": "模拟",
+      "slug": "simulation"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone"
+  },
+  "description_raw": "暖暖系列首个开放世界作品，将换装玩法带入了广阔3D世界。在奇迹大陆上，暖暖可以通过更换服装获得不同的探索能力——捕虫、钓鱼、清洁动物、跳跃漂浮。用搭配之力解决谜题，用服装美学点亮这片充满奇迹的大陆。",
+  "developers": [
+    {
+      "id": 65,
+      "name": "Infold Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 65,
+      "name": "Infold Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "开放世界探索融合换装——不同套装赋予暖暖不同的探索能力（漂浮、净化、钓鱼、捕虫等）。奇迹大陆分布着各种「奇想星」和宝箱等待收集。搭配比拼和时尚挑战是特色玩法——不战斗而以美学对决。剧情温馨治愈，画风清新梦幻。定期推出限定套装，搭配自由度极高。",
+  "recommendation": "无限暖暖是「她经济」在游戏领域的完美答卷——它证明了游戏不必只有打打杀杀，换装、探索和治愈的旅程同样可以成为核心玩法。奇迹大陆美得令人窒息，每一套服装都是精致的设计作品。适合所有想要放松和治愈的玩家。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "画面精美梦幻，奇迹大陆处处是风景。",
+    "换装玩法与探索能力绑定的设计很巧妙。",
+    "治愈系氛围让人放松。",
+    "对男性玩家吸引力有限。"
+  ],
+  "screenshots": [],
+  "news": []
+}

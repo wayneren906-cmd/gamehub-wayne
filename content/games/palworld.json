@@ -1,0 +1,82 @@
+{
+  "id": 53,
+  "slug": "palworld",
+  "name": "幻兽帕鲁",
+  "released": "2024-01-19",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 4.4,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 6,
+      "name": "模拟",
+      "slug": "simulation"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "Pocketpair 打造的「宝可梦+方舟生存进化」缝合怪——但这锅缝合汤意外地美味。在开放世界中捕捉超过 100 种「帕鲁」，让它们在基地里工作、在生产线上劳作、在战斗中与你并肩作战。首发即爆火，成为 Steam 历史上同时在线人数最高的付费游戏之一。",
+  "developers": [
+    {
+      "id": 68,
+      "name": "Pocketpair"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 68,
+      "name": "Pocketpair"
+    }
+  ],
+  "tags": [],
+  "gameplay": "生存建造+怪物捕捉——收集资源建造基地，捕捉帕鲁为你工作（采矿、种植、手工、搬运）。帕鲁可骑乘、飞行、游泳，极大扩展探索能力。枪械和帕鲁技能结合战斗。地下城和野外 Boss 提供挑战。多人服务器可组队生存和互相袭击。每只帕鲁有随机属性和特性（工作狂、社恐等）。",
+  "recommendation": "幻兽帕鲁证明了「缝合怪」不一定是贬义词——当生存建造、怪物捕捉和开放世界被巧妙地组合在一起时，产生了难以置信的化学反应。让你的帕鲁在流水线上加班然后吃掉它（真的可以）——这种黑色幽默也是游戏魅力的一部分。无论你是宝可梦粉还是生存游戏爱好者，帕鲁都能给你惊喜。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "生存建造与宠物收集的化学反响极佳。",
+    "帕鲁在工作流水线上的黑色幽默令人捧腹。",
+    "开放世界探索内容丰富。",
+    "优化尚有提升空间，部分区域掉帧。"
+  ],
+  "screenshots": [],
+  "news": []
+}

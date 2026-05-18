@@ -1,0 +1,112 @@
+{
+  "id": 14,
+  "slug": "monster-hunter-world",
+  "name": "怪物猎人: 世界",
+  "released": "2018-08-09",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 90,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "怪物猎人: 世界是 Capcom 开发的共斗动作游戏，是系列史上最成功的作品。玩家将扮演一名猎人，在新大陆——一片未被探索的原始生态中，与各种巨大的怪物展开激烈狩猎。游戏以精妙的生态系统设计、深度的战斗系统和华丽的联机体验而闻名，全球销量超过 2500 万份。",
+  "developers": [
+    {
+      "id": 9,
+      "name": "Capcom"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 9,
+      "name": "Capcom"
+    }
+  ],
+  "tags": [],
+  "gameplay": "14 种武器类型各有独特连招和战斗风格——太刀见切反击、大剑真蓄力斩、大锤眩晕流等。怪物无血条，需通过观察行为判断状态。环境互动丰富——落石、藤蔓陷阱、领地争夺均可利用。4 人联机狩猎是核心体验，配合闪光弹、陷阱、回复粉尘等辅助道具，团队协作感极强。",
+  "recommendation": "Capcom 史上销量最高的游戏，14 种武器的差异化设计让每位猎人都能找到自己的战斗方式。与朋友联机狩猎巨大怪物的爽快感无可替代。冰原 DLC 更是将内容量翻倍，大师级怪物带来真正的挑战。如果你想要一款可以玩上千小时的联机游戏，这就是。",
+  "requirements": {
+    "minCpu": "Intel Core i5-4460",
+    "minGpu": "NVIDIA GeForce GTX 760",
+    "minRamGB": 8,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i7-3770",
+    "recGpu": "NVIDIA GeForce GTX 1060",
+    "recRamGB": 8,
+    "recVramGB": 3
+  },
+  "reviews": [
+    "狩猎体验的天花板，14 种武器设计各有深度。",
+    "生态系统设计精妙，怪物之间的互动令人惊叹。",
+    "冰原 DLC 内容量堪比一部完整游戏。",
+    "联机体验极佳，与朋友一起狩猎乐趣翻倍。",
+    "初期上手有一定门槛，但一旦掌握就停不下来。",
+    "PC 版优化初期有问题，现已经过多次更新改善。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-06-12",
+      "title": "怪物猎人: 荒野公布",
+      "summary": "Capcom 正式公布系列新作《怪物猎人: 荒野》，预计 2025 年发售，画面全面进化。"
+    },
+    {
+      "date": "2024-03-01",
+      "title": "冰原回归活动开启",
+      "summary": "限定怪猎世界+冰原捆绑包折扣，吸引大量新猎人加入。"
+    },
+    {
+      "date": "2023-12-05",
+      "title": "销量突破 2500 万",
+      "summary": "Capcom 宣布怪猎世界全球累计销量突破 2500 万份。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 3,
+  "slug": "god-of-war-ragnarok",
+  "name": "战神: 诸神黄昏",
+  "released": "2022-11-09",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/library_hero.jpg",
+  "rating": 4.6,
+  "metacritic": 94,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "战神: 诸神黄昏 是 Santa Monica Studio 开发的史诗动作冒险游戏，延续奎托斯与阿特柔斯在北欧神话世界的旅程。诸神黄昏即将降临，父子二人必须面对奥丁的威胁，同时处理彼此之间日益紧张的关系。游戏以其震撼的视觉效果、深情的叙事和一流的战斗系统，成为 PS5 世代最具代表性的作品之一。",
+  "developers": [
+    {
+      "id": 5,
+      "name": "Santa Monica Studio"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 5,
+      "name": "PlayStation PC"
+    }
+  ],
+  "tags": [],
+  "gameplay": "越肩第三人称动作冒险，利维坦之斧与混沌之刃双武器即时切换，打出华丽连招。阿特柔斯作为 AI 同伴提供弓箭支援与符文召唤。半开放世界设计，九界各具特色，解密元素与战斗交织。装备系统支持符文、握柄与护甲套装搭配，流派构筑深度丰富。",
+  "recommendation": "如果你追求电影级叙事与爽快战斗的完美结合，Ragnarök 是必玩之作。奎托斯的角色弧光从希腊战神到北欧慈父的转变令人动容，九界的视觉奇观无与伦比。PC 版支持超宽屏和 DLSS，体验更佳。",
+  "requirements": {
+    "minCpu": "Intel Core i5-4670K",
+    "minGpu": "NVIDIA GeForce GTX 1060",
+    "minRamGB": 8,
+    "minVramGB": 6,
+    "recCpu": "Intel Core i5-8600",
+    "recGpu": "NVIDIA GeForce RTX 2060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "剧情演出达到电影级水准，角色情感描绘令人动容。",
+    "战斗系统在前作基础上大幅进化，武器切换流畅爽快。",
+    "九界的场景设计各具特色，视觉震撼力无与伦比。",
+    "部分解密过于频繁，打断了战斗节奏。",
+    "PC 移植质量优秀，支持超宽屏和 DLSS。",
+    "支线任务质量极高，每个都有完整的故事线。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-09-19",
+      "title": "PC 版正式发售",
+      "summary": "Santa Monica Studio 为 PC 玩家带来终极体验，支持 DLSS 3.5 和超宽屏。"
+    },
+    {
+      "date": "2024-01-23",
+      "title": "免费 DLC《英灵神殿》发布",
+      "summary": "新增 Roguelite 模式，奎托斯在英灵殿中迎接无尽挑战。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "获 TGA 多项大奖",
+      "summary": "Ragnarök 斩获最佳叙事、最佳音效等多项大奖。"
+    }
+  ]
+}

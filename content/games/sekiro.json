@@ -1,0 +1,112 @@
+{
+  "id": 15,
+  "slug": "sekiro",
+  "name": "只狼: 影逝二度",
+  "released": "2019-03-22",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_hero.jpg",
+  "rating": 4.6,
+  "metacritic": 90,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 11,
+      "name": "魂系",
+      "slug": "souls-like"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "只狼: 影逝二度 是 FromSoftware 开发的忍者题材动作冒险游戏，荣获 2019 年 TGA 年度游戏大奖。故事设定在 16 世纪末的日本战国时代，玩家扮演独臂忍者狼，为守护年幼的皇子而踏上了复仇与救赎之路。游戏以其精准的拼刀战斗系统、立体化的地图探索和深刻的和风美学而受到全球玩家和评论家的高度赞誉。",
+  "developers": [
+    {
+      "id": 2,
+      "name": "FromSoftware"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 10,
+      "name": "Activision"
+    }
+  ],
+  "tags": [],
+  "gameplay": "以格挡为核心的单人动作游戏，拼刀系统要求精准弹开敌人攻击并寻找反击窗口。义手忍具提供多样化战术——手里剑追击、爆竹惊敌、雾鸦闪避等。钩绳系统赋予立体机动能力，可飞檐走壁、空中暗杀。死亡后可在佛像处复活一次，但多次死亡会传播龙咳疾病。Boss 战强调节奏感和反应速度。",
+  "recommendation": "2019 TGA 年度游戏，FromSoftware 最具节奏感的战斗系统。与敌人拼刀的金属碰撞声中蕴含着游戏的灵魂——这是一场关于技巧、耐心和专注力的修行。如果你渴望一款真正考验技术的动作游戏，只狼会给你最纯粹的挑战和最深刻的满足。",
+  "requirements": {
+    "minCpu": "Intel Core i3-2100",
+    "minGpu": "NVIDIA GeForce GTX 760",
+    "minRamGB": 4,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i5-2500K",
+    "recGpu": "NVIDIA GeForce GTX 970",
+    "recRamGB": 8,
+    "recVramGB": 4
+  },
+  "reviews": [
+    "弹刀系统的金属碰撞感是游戏史上最好的近战体验之一。",
+    "钩绳移动让地图探索充满立体感和自由度。",
+    "Boss 战设计如同刀剑对决的舞蹈，每一场都令人难忘。",
+    "难度极高，但每次击败 Boss 的成就感无与伦比。",
+    "和风美学贯穿始终，苇名城的场景氛围令人沉醉。",
+    "缺少角色构筑多样性，不像魂系有那么多流派选择。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2023-09-26",
+      "title": "只狼五周年纪念",
+      "summary": "FromSoftware 发布只狼五周年纪念插图，感谢全球玩家支持。"
+    },
+    {
+      "date": "2023-03-22",
+      "title": "销量突破 1000 万",
+      "summary": "只狼全球销量正式突破 1000 万份，成为 FS 社最畅销作品之一。"
+    }
+  ]
+}

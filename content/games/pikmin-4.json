@@ -1,0 +1,69 @@
+{
+  "id": 39,
+  "slug": "pikmin-4",
+  "name": "皮克敏 4",
+  "released": "2023-07-21",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/p/pikmin-4-switch/hero",
+  "hero_image": "",
+  "rating": 4.4,
+  "metacritic": 87,
+  "genres": [
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone 10+"
+  },
+  "description_raw": "指挥可爱的皮克敏生物探索神秘星球、收集宝物、对抗原生生物的即时策略游戏。第四代新增了太空犬「欧庆」和夜间探险模式，大幅降低了新手上手门槛。宫本茂的创意结晶，将微观世界探索与时间管理策略完美融合。",
+  "developers": [
+    {
+      "id": 51,
+      "name": "Nintendo EPD"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "实时策略与探索——指挥皮克敏搬运、战斗、建造和开路。不同颜色皮克敏各有特性：红色耐火、蓝色游泳、黄色导电、紫色力大。欧庆犬可驮着主角和皮克敏快速移动，也能冲撞敌人。当多利挑战是限时策略关卡，考验效率最大化。日夜循环：白天探索收集，夜晚防守基地。",
+  "recommendation": "皮克敏 4 是系列中新人最容易上手的一代。可爱的美术风格下是扎实策略深度——如何高效分配皮克敏、优化路线、在日落前完成任务都需要精心规划。任天堂独创的「微观世界管理」玩法至今无人复制。87 分，值得每一位策略游戏爱好者尝试。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "微观世界探索充满童趣与策略。",
+    "欧庆的加入让探索更加流畅有趣。",
+    "当多利挑战的限时规划考验性十足。",
+    "入门门槛大幅降低，新人友好。"
+  ],
+  "screenshots": [],
+  "news": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": 58,
+  "slug": "identity-v",
+  "name": "第五人格",
+  "released": "2018-04-02",
+  "background_image": "https://img.idv.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.2,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 11,
+      "name": "非对称竞技",
+      "slug": "asymmetric"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "网易出品的哥特风非对称竞技手游。1 名监管者 vs 4 名求生者的 1v4 猫鼠游戏——求生者在密闭庄园中破译密码机、躲避追杀最终逃脱；监管者则要追击、击倒并淘汰所有求生者。蒂姆·伯顿式的黑暗童话美术风格和持续的电竞赛事使其长盛不衰。",
+  "developers": [
+    {
+      "id": 64,
+      "name": "NetEase"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 64,
+      "name": "NetEase"
+    }
+  ],
+  "tags": [],
+  "gameplay": "1v4 非对称对抗——求生者（4人）需合作破译 5 台密码机后打开大门逃脱。监管者（1人）需击倒并挂飞椅淘汰求生者。求生者可选择不同角色，各有独特技能和道具（翻窗加速、治疗光环、分身等）。监管者可选择不同猎人，能力各异（隐身、传送、冲刺等）。地图有复杂的地形和板窗交互。",
+  "recommendation": "第五人格将非对称竞技与哥特暗黑美学结合，打造了一个在华语手游圈具有极高辨识度的 IP。1v4 的猫鼠博弈每一局都紧张刺激——作为求生者需要团队配合和走位，作为监管者需要心理预判和策略。如果你喜欢《黎明杀机》式体验但又想要更轻度的手机版，第五人格是不二之选。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "非对称竞技设计精妙，1v4 博弈乐趣十足。",
+    "黑暗童话美术风格独特。",
+    "角色平衡持续调整，竞技环境健康。",
+    "新手求生者容易被老手监管者碾压。"
+  ],
+  "screenshots": [],
+  "news": []
+}

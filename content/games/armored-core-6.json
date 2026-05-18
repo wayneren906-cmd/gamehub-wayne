@@ -1,0 +1,107 @@
+{
+  "id": 25,
+  "slug": "armored-core-6",
+  "name": "装甲核心 6",
+  "released": "2023-08-25",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/library_hero.jpg",
+  "rating": 4.4,
+  "metacritic": 86,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 6,
+      "name": "射击",
+      "slug": "shooter"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox Series X",
+        "slug": "xbox-series-x"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "装甲核心 6: 境界天火 是 FromSoftware 开发的机甲动作游戏，是装甲核心系列时隔十年的重启之作。故事设定在未来星际文明中，玩家扮演一名强化人佣兵，驾驶巨大的机甲（AC）在星际企业战争中执行任务。游戏以其极致的机甲定制系统、高速的立体战斗和 FromSoftware 标志性的挑战性著称。",
+  "developers": [
+    {
+      "id": 2,
+      "name": "FromSoftware"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 2,
+      "name": "Bandai Namco"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称机甲动作射击，3D 空间中的高速立体战斗。组装系统是核心——头部、核心、手臂、腿部、推进器、武器等数十种部件可自由搭配，影响机动性、负重和火力。ACS 架势系统要求持续攻击以击晕敌人，然后释放高伤害追击。BOOST 机动允许空中冲刺和快速转向。",
+  "recommendation": "FromSoftware 的机甲魂——虽然没有魂系的体力条，但 Boss 战的挑战性和精致度完全不输艾尔登法环。组装一台属于自己的机甲，在 3D 弹幕中穿梭，击败巨型 Boss 的爽快感独一无二。如果你喜欢高达、EVA 或任何机甲题材，这是近年来最纯粹的机甲游戏体验。",
+  "requirements": {
+    "minCpu": "Intel Core i7-4790K",
+    "minGpu": "NVIDIA GeForce GTX 1650",
+    "minRamGB": 12,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i7-7700",
+    "recGpu": "NVIDIA GeForce GTX 1060",
+    "recRamGB": 12,
+    "recVramGB": 6
+  },
+  "reviews": [
+    "机甲定制的深度令人惊叹，数十种部件可创造无限组合。",
+    "Boss 战设计一如既往的出色，3D 弹幕的压迫感十足。",
+    "战斗速度快感极强，高速 BOOST 冲刺和火力全开的感觉无与伦比。",
+    "剧情隐晦且主要通过简报传达，缺乏角色情感连接。",
+    "操作门槛较高，需要掌握双持武器和四键操作。",
+    "PC 版运行流畅，支持 120fps 的机甲战斗体验极佳。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-01-15",
+      "title": "销量突破 300 万",
+      "summary": "FromSoftware 宣布装甲核心 6 全球销量突破 300 万份。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "获 TGA 最佳动作游戏提名",
+      "summary": "装甲核心 6 在 TGA 2023 获最佳动作游戏提名。"
+    }
+  ]
+}

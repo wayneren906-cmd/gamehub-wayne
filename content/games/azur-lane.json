@@ -1,0 +1,77 @@
+{
+  "id": 59,
+  "slug": "azur-lane",
+  "name": "碧蓝航线",
+  "released": "2017-05-25",
+  "background_image": "https://img.azurlane.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.1,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 5,
+      "name": "射击",
+      "slug": "shooter"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "将军舰拟人化的横版弹幕射击手游。将历史上的真实战舰（如企业号、俾斯麦号、贝尔法斯特号等）设计为各具性格的「舰娘」，玩家指挥舰队在弹幕海洋中穿梭作战。以出色的角色设计、良心的付费模式和活跃的社区文化闻名。",
+  "developers": [
+    {
+      "id": 74,
+      "name": "Manjuu"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 75,
+      "name": "Yostar"
+    }
+  ],
+  "tags": [],
+  "gameplay": "横版弹幕射击——控制前排先锋舰和后排主力舰队在弹幕中闪避并输出。前排负责鱼雷和防空，后排负责舰炮和空袭。装备系统可自由搭配主炮、鱼雷、飞机、防空炮。每艘舰娘可通过出击和演习提升等级和好感度。大型活动剧情为原创世界观展开。付费以皮肤为主，不影响战力。",
+  "recommendation": "碧蓝航线是二次元手游中稀有的「良心运营」典范——付费几乎全在皮肤，战力获取零门槛。弹幕射击玩法在同类游戏中独树一帜，角色设计和Live2D皮肤质量极高。如果你喜欢收集精美角色又不想被氪金逼迫，碧蓝航线是绝佳选择。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "角色设计精美，Live2D质量极高。",
+    "付费以皮肤为主，不逼氪值得称赞。",
+    "弹幕射击玩法轻松爽快。",
+    "玩法重复度较高，主要靠爱发电。"
+  ],
+  "screenshots": [],
+  "news": []
+}

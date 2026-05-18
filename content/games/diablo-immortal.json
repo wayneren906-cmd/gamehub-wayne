@@ -1,0 +1,85 @@
+{
+  "id": 55,
+  "slug": "diablo-immortal",
+  "name": "暗黑破坏神：不朽",
+  "released": "2022-06-02",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2180880/library_600x900.jpg",
+  "hero_image": "",
+  "rating": 3.5,
+  "metacritic": 59,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "暴雪与网易联合打造的暗黑系列手游。故事发生在暗黑 2 与暗黑 3 之间，玩家探索被恶魔侵蚀的庇护之地。继承了系列经典的俯视角 ARPG 玩法和刷装乐趣，同时引入了 MMO 式的多人互动——世界事件、阵营战、大型副本。",
+  "developers": [
+    {
+      "id": 71,
+      "name": "Blizzard Entertainment"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 72,
+      "name": "Activision Blizzard"
+    }
+  ],
+  "tags": [],
+  "gameplay": "经典俯视角 ARPG 刷装——选择六大职业（野蛮人、猎魔人、法师、圣教军、死灵法师、武僧），在庇护之地刷怪升装备。技能搭配自由，可同时装备 4 个主动技能。MMO 要素：野外 PvP、大型副本、阵营战、世界 Boss。传奇宝石是核心养成系统和主要氪金点。手柄操控和触屏均支持。",
+  "recommendation": "暗黑不朽在游戏体验上是一头矛盾的野兽——它的战斗手感、美术质感和地图设计确实达到了暗黑系列的水准，但激进的付费机制严重影响了公平性。如果你能克制自己不攀比战斗力，仅以体验剧情和刷怪为目标，它仍能提供数十小时的爽快 ARPG 体验。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "战斗手感和美术达到了暗黑水准。",
+    "MMO 化带来了新的社交乐趣。",
+    "氪金体系过于激进，传奇宝石是深坑。",
+    "剧情和世界构建有暗黑正统的味道。"
+  ],
+  "screenshots": [],
+  "news": []
+}

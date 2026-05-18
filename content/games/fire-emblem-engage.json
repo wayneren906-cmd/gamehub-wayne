@@ -1,0 +1,69 @@
+{
+  "id": 38,
+  "slug": "fire-emblem-engage",
+  "name": "火焰纹章 Engage",
+  "released": "2023-01-20",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/f/fire-emblem-engage-switch/hero",
+  "hero_image": "",
+  "rating": 4.1,
+  "metacritic": 80,
+  "genres": [
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "火焰纹章系列最新作，集系列历代英雄于一身的豪华庆典。通过「纹章士」戒指召唤马尔斯、赛莉卡、西格尔特等过往主角的力量，与全新角色神龙「琉尔」一同对抗邪龙。经典战棋玩法与华丽 3D 动画的完美结合。",
+  "developers": [
+    {
+      "id": 55,
+      "name": "Intelligent Systems"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "经典回合制战棋——网格地图上指挥各单位移动、攻击和使用技能。纹章士戒指是核心创新：装备后可使用该角色专属技能和「结合」大招。武器三角克制回归——剑>斧>枪>剑。角色养成系统深入，可自由定制职业和技能组合。永久死亡模式可选，增加战棋紧张感。",
+  "recommendation": "火纹系列 30 周年纪念性质的集大成之作。纹章士系统让历代角色同台演出，老粉的情怀满载。虽然剧情相比《风花雪月》略显简单，但战棋玩法本身更加纯粹和精炼。如果你是战棋爱好者，Engage 的战斗设计依然是业界顶级。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "战棋玩法依旧是业界天花板。",
+    "纹章士召唤系统情怀满满又富有策略性。",
+    "3D 战斗动画华丽，演出效果出色。",
+    "剧情相对平淡，角色塑造不如前作。"
+  ],
+  "screenshots": [],
+  "news": []
+}

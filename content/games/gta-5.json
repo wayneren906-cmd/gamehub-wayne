@@ -1,0 +1,117 @@
+{
+  "id": 13,
+  "slug": "gta-5",
+  "name": "侠盗猎车手 5",
+  "released": "2015-04-14",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_hero.jpg",
+  "rating": 4.5,
+  "metacritic": 96,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 10,
+      "name": "开放世界",
+      "slug": "open-world"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "侠盗猎车手 5 是 Rockstar Games 开发的现象级开放世界动作冒险游戏，故事发生在阳光明媚的洛圣都——一个以洛杉矶为原型的广阔都会。玩家将操控三位截然不同的主角——麦克、富兰克林和崔佛，在充满犯罪、背叛与金钱的都市中展开一场惊心动魄的冒险。GTA Online 模式更是将游戏打造成了持续更新的线上世界。",
+  "developers": [
+    {
+      "id": 6,
+      "name": "Rockstar Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 6,
+      "name": "Rockstar Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称/第一人称自由切换的开放世界。三位主角可在任务中实时切换，各自拥有特殊能力。海陆空载具全面覆盖——汽车、直升机、快艇甚至潜艇。抢劫任务系列是游戏精华，需团队配合完成精心策划的大型行动。GTA Online 持续更新，涵盖竞技场、赌场、岛屿劫案等海量内容。",
+  "recommendation": "销量 2 亿份的现象级作品，开放世界游戏的终极形态。洛圣都的每一寸土地都充满了细节与生命力。三位主角的叙事交织精彩纷呈，GTA Online 的持续更新让它至今依然是最活跃的在线游戏之一。如果你还没玩过，你可能是地球上的最后一个人。",
+  "requirements": {
+    "minCpu": "Intel Core 2 Quad Q6600",
+    "minGpu": "NVIDIA GeForce 9800 GT",
+    "minRamGB": 4,
+    "minVramGB": 1,
+    "recCpu": "Intel Core i5-3470",
+    "recGpu": "NVIDIA GeForce GTX 660",
+    "recRamGB": 8,
+    "recVramGB": 2
+  },
+  "reviews": [
+    "史上最畅销的娱乐产品之一，洛圣都的世界令人沉迷。",
+    "三位主角切换机制创新十足，每个角色都有独特魅力。",
+    "GTA Online 的持续更新让游戏生命力长达十年。",
+    "部分任务设计略显线性，自由度不如整体开放世界。",
+    "中文语音和字幕让中国玩家体验更佳。",
+    "抢劫任务是系列巅峰——需要真正的团队配合和技巧。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2025-01-15",
+      "title": "GTA VI 开发进度更新",
+      "summary": "Rockstar 确认 GTA VI 将于 2025 年秋登陆 PS5 和 Xbox Series X，PC 版稍后。"
+    },
+    {
+      "date": "2024-12-10",
+      "title": "GTA Online 圣诞活动上线",
+      "summary": "限时双倍奖励、雪天洛圣都、节日限定载具回归。"
+    },
+    {
+      "date": "2024-09-01",
+      "title": "PC 版光线追踪更新",
+      "summary": "PC 版获得增强光追效果，包括反射和阴影的质量提升。"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 19,
+  "slug": "hades",
+  "name": "黑帝斯",
+  "released": "2020-09-17",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_hero.jpg",
+  "rating": 4.7,
+  "metacritic": 93,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 15,
+      "name": "独立",
+      "slug": "indie"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "黑帝斯 是 Supergiant Games 开发的 Roguelike 动作地牢游戏，荣获 2021 年 TGA 年度游戏提名和最佳动作游戏奖。玩家扮演冥王哈迪斯之子扎格柔斯，试图逃离冥界到达奥林匹斯山。每次逃跑失败后都会回到冥府，与各色神明和冥界居民互动，逐步揭开奥林匹斯家族的秘密。",
+  "developers": [
+    {
+      "id": 14,
+      "name": "Supergiant Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 14,
+      "name": "Supergiant Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "俯视角高速 Roguelike 动作游戏，六种武器各有独特形态变异。奥林匹斯众神提供祝福——宙斯的连环闪电、波塞冬的击退波浪、雅典娜的神圣偏折等，祝福之间的组合可触发双重祝福。每次逃跑中收集的黑暗、宝石和钥匙可永久强化角色能力。NPC 好感系统影响剧情解锁和道具获取。",
+  "recommendation": "Roguelike 游戏的叙事典范——每次死亡不是失败，而是推进剧情的机会。Supergiant 标志性的美术风格和 Darren Korb 的神级配乐让冥界之旅充满魅力。六种武器 × 众神祝福 × 形态变异的组合深度惊人，即使 100 次逃跑后依然有新发现。独立游戏天花板。",
+  "requirements": {
+    "minCpu": "Dual Core 2.4 GHz",
+    "minGpu": "NVIDIA GeForce 8600",
+    "minRamGB": 4,
+    "minVramGB": 1,
+    "recCpu": "Dual Core 3.0 GHz",
+    "recGpu": "NVIDIA GeForce GTX 460",
+    "recRamGB": 8,
+    "recVramGB": 1
+  },
+  "reviews": [
+    "Roguelike 的叙事新标杆，每次死亡都推动剧情前进。",
+    "画风精美绝伦，人物立绘和场景设计充满艺术感。",
+    "祝福组合系统深度惊人，每次逃跑的体验都不同。",
+    "NPC 互动充满温度，冥界诸神的性格塑造极为出色。",
+    "音乐堪称神级，Darren Korb 的配乐让战斗更加热血。",
+    "高热度模式下难度骤增，挑战极限的成就感强烈。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-05-06",
+      "title": "黑帝斯 2 抢先体验版上线",
+      "summary": "Supergiant 发布黑帝斯 2 抢先体验版，首日 Steam 在线峰值超 10 万。"
+    },
+    {
+      "date": "2023-12-15",
+      "title": "黑帝斯 2 正式公布",
+      "summary": "在 TGA 2023 上正式公布续作，玩家将扮演冥界公主梅莉诺伊。"
+    }
+  ]
+}

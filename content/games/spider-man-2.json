@@ -1,0 +1,104 @@
+{
+  "id": 7,
+  "slug": "spider-man-2",
+  "name": "漫威蜘蛛侠 2",
+  "released": "2023-10-20",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/library_hero.jpg",
+  "rating": 4.4,
+  "metacritic": 90,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "漫威蜘蛛侠 2 是 Insomniac Games 开发的超级英雄动作游戏，玩家可同时操控彼得·帕克和迈尔斯·莫拉莱斯两位蜘蛛侠，在更大的纽约城中穿梭。面对毒液和猎人克莱文等经典反派的威胁，两位蜘蛛侠必须携手守护城市。游戏在前作基础上全面进化，摆荡速度和战斗流畅度达到新高度。",
+  "developers": [
+    {
+      "id": 7,
+      "name": "Insomniac Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 7,
+      "name": "PlayStation PC"
+    }
+  ],
+  "tags": [],
+  "gameplay": "双主角即时切换，彼得拥有共生体黑色战衣能力，迈尔斯保留生物电隐形技能。蛛网摆荡速度翻倍，配合蛛网翼实现高速滑翔飞行。战斗系统新增格挡机制和技能连携，两位蜘蛛侠可打出联合终结技。开放世界增加了更丰富的随机犯罪事件和收集要素。",
+  "recommendation": "超级英雄游戏的新标杆。蛛网摆荡+滑翔翼的高速移动体验无与伦比，在纽约摩天楼之间穿梭的爽快感很难在其他游戏中找到。双主角叙事将彼得与迈尔斯的故事线交织得感人且精彩。PC 版画面表现顶级。",
+  "requirements": {
+    "minCpu": "Intel Core i3-8100",
+    "minGpu": "NVIDIA GeForce GTX 1650",
+    "minRamGB": 16,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i5-8400",
+    "recGpu": "NVIDIA GeForce RTX 3060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "蛛网摆荡速度大幅提升，配合滑翔翼的移动体验极为爽快。",
+    "毒液共生体的战斗风格独特且富有冲击力。",
+    "双主角切换自然流畅，两个角色的故事线都很丰满。",
+    "主线剧情偏短，大约 15 小时即可通关。",
+    "NYC 城市场景细节精美，光线追踪效果出色。",
+    "PC 移植表现优秀，支持多种画面技术。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-10-19",
+      "title": "PC 版正式发售",
+      "summary": "漫威蜘蛛侠 2 登陆 PC 平台，支持光线追踪和超宽屏显示。"
+    },
+    {
+      "date": "2024-03-07",
+      "title": "新游戏+ 模式更新",
+      "summary": "新增 New Game+ 模式，可继承所有战衣和能力重新体验故事。"
+    },
+    {
+      "date": "2023-12-07",
+      "title": "TGA 最佳动作游戏提名",
+      "summary": "凭借出色的摆荡机制和战斗系统获得 TGA 最佳动作游戏提名。"
+    }
+  ]
+}

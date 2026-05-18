@@ -1,0 +1,74 @@
+{
+  "id": 31,
+  "slug": "zelda-breath-of-the-wild",
+  "name": "塞尔达传说：旷野之息",
+  "released": "2017-03-03",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/hero",
+  "hero_image": "",
+  "rating": 4.9,
+  "metacritic": 97,
+  "genres": [
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone 10+"
+  },
+  "description_raw": "在任天堂 Switch 首发护航大作中，玩家扮演从百年沉睡中苏醒的林克，探索被灾厄盖侬毁灭的海拉鲁王国。游戏彻底重构了塞尔达系列的线性传统，呈现出开放世界游戏的新范式——每座山都能攀爬，每片区域都有秘密等待发现。物理引擎驱动下的火、冰、电、风交互系统，让玩家的创造力成为探索的唯一限制。",
+  "developers": [
+    {
+      "id": 50,
+      "name": "Nintendo EPD"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "开放世界探索为核心——没有固定的攻略顺序，离开初始高地后整个世界都是你的。攀爬、滑翔、骑马横穿广袤海拉鲁。120 个神庙谜题散落各地，考验物理与逻辑。天气系统影响攀爬、视野和元素反应。武器耐久系统迫使玩家不断尝试新装备。烹饪系统将野外采集的食材转化为增益效果。",
+  "recommendation": "不只是 Switch 必入之作，更是电子游戏史上最具影响力的开放世界之一。任天堂用看似简单的物理引擎构建了无穷的玩法可能性。每一次游玩都会发现新的惊喜。97 分的 Metacritic 评分，名副其实的传世经典。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "开放世界设计的巅峰之作，自由的探索感无与伦比。",
+    "物理引擎的交互深度令人惊叹，每次游玩都有新发现。",
+    "美术风格绝美，吉卜力式的海拉鲁让人流连忘返。",
+    "神庙解谜精巧有趣，120 个各不重样。"
+  ],
+  "screenshots": [],
+  "news": []
+}

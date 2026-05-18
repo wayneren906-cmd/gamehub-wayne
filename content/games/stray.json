@@ -1,0 +1,107 @@
+{
+  "id": 22,
+  "slug": "stray",
+  "name": "迷失",
+  "released": "2022-07-19",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/library_hero.jpg",
+  "rating": 4.4,
+  "metacritic": 83,
+  "genres": [
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    },
+    {
+      "id": 15,
+      "name": "独立",
+      "slug": "indie"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "迷失 是 BlueTwelve Studio 开发的第三人称冒险游戏，玩家扮演一只迷失在赛博朋克城市中的橘猫。在一座被遗忘的地下都市中，这只猫必须与一架小型无人机 B-12 合作，解开这座城市的谜团，寻找回到地面的道路。游戏以其独特的猫咪视角、精美的赛博朋克美学和温馨的叙事获得了广泛好评。",
+  "developers": [
+    {
+      "id": 17,
+      "name": "BlueTwelve Studio"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 17,
+      "name": "Annapurna Interactive"
+    }
+  ],
+  "tags": [],
+  "gameplay": "以猫的视角进行的第三人称探索冒险，包含攀爬、跳跃、钻洞等猫咪特有动作。环境叙事为主，通过壁画、机器人居民的对话和场景细节讲述故事。解谜元素轻度直观，配合平台跳跃和潜行躲避敌人 Zurks 的追捕。B-12 无人机可翻译机器人语言、照明和骇入设备，是探索的关键伙伴。",
+  "recommendation": "一款让所有猫奴心化的游戏——你真的可以推倒桌上的花瓶、挠沙发、在机器人身上打盹。但 Stray 不止于卖萌，它在赛博朋克废墟中讲述了一段温馨而忧伤的文明寓言。短小精悍（约 6-8 小时），适合一个周末沉浸其中。",
+  "requirements": {
+    "minCpu": "Intel Core i5-2300",
+    "minGpu": "NVIDIA GeForce GTX 650 Ti",
+    "minRamGB": 8,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i5-8400",
+    "recGpu": "NVIDIA GeForce GTX 780",
+    "recRamGB": 8,
+    "recVramGB": 4
+  },
+  "reviews": [
+    "猫咪模拟器的终极形态，所有猫咪的小动作都被完美还原。",
+    "赛博朋克废土的美术风格独特且富有感染力。",
+    "叙事温馨动人，B-12 作为伙伴的塑造令人难忘。",
+    "流程偏短，大约 6-8 小时即可通关。",
+    "解谜和平台难度适中，适合休闲玩家。",
+    "音乐的电子氛围风格完美烘托了城市的孤独感。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-06-18",
+      "title": "Stray 改编动画电影官宣",
+      "summary": "Annapurna 动画部门宣布将 Stray 改编为动画长片。"
+    },
+    {
+      "date": "2023-11-28",
+      "title": "macOS 版本发布",
+      "summary": "Stray 正式登陆 Mac 平台，支持 MetalFX 画质增强。"
+    }
+  ]
+}

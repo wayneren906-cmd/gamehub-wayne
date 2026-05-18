@@ -1,0 +1,117 @@
+{
+  "id": 11,
+  "slug": "horizon-forbidden-west",
+  "name": "地平线: 西之绝境",
+  "released": "2022-02-18",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/library_hero.jpg",
+  "rating": 4.3,
+  "metacritic": 88,
+  "genres": [
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    },
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "地平线: 西之绝境 是 Guerrilla Games 开发的开放世界动作角色扮演游戏，是《零之曙光》的续作。埃洛伊前往被神秘红色枯萎病侵蚀的西部禁域，寻找拯救地球的答案。游戏以壮丽的末世自然景观、进化的机械兽狩猎系统和更深入的世界观探索，将这一系列的品质推向新高度。",
+  "developers": [
+    {
+      "id": 11,
+      "name": "Guerrilla Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 7,
+      "name": "PlayStation PC"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称开放世界，弓箭、投石索、标枪等多样化远程武器对战巨型机械兽。焦点扫描系统揭示敌人弱点和行动路径。新增水下探索、滑翔伞和自由攀爬系统，极大地丰富了移动自由度。技能树分为战士、猎人、生存者、渗透者和机器大师五种流派，支持深度构筑。",
+  "recommendation": "PS5 时代画面最惊艳的游戏之一，机械兽的设计和战斗演出令人叹为观止。从水下遗迹到雪山之巅，西部禁域的生态多样性令人沉浸。PC 版支持超宽屏和高帧率，是体验这款视觉奇观的最佳平台。",
+  "requirements": {
+    "minCpu": "Intel Core i3-8100",
+    "minGpu": "NVIDIA GeForce GTX 1650",
+    "minRamGB": 16,
+    "minVramGB": 4,
+    "recCpu": "Intel Core i5-8600",
+    "recGpu": "NVIDIA GeForce RTX 3060",
+    "recRamGB": 16,
+    "recVramGB": 8
+  },
+  "reviews": [
+    "画面表现力达到新高度，机械兽的细节令人叹为观止。",
+    "战斗系统在前作基础上极大丰富，每种武器都有独特手感。",
+    "开放世界内容丰富，支线任务质量高于前作。",
+    "主线剧情中段节奏略显拖沓。",
+    "水下探索和飞行坐骑为探索增加了新维度。",
+    "PC 版优化出色，支持 DLSS 和超宽屏。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-03-21",
+      "title": "PC 版正式发售",
+      "summary": "Horizon Forbidden West 完整版登陆 PC，含 Burning Shores DLC 和全部更新。"
+    },
+    {
+      "date": "2023-12-10",
+      "title": "Burning Shores 获好评",
+      "summary": "Burning Shores DLC 在洛杉矶废墟上带来震撼的机械龙 Boss 战。"
+    },
+    {
+      "date": "2023-06-15",
+      "title": "Guerrilla 宣布多人游戏项目",
+      "summary": "Guerrilla Games 确认正在开发设定在 Horizon 宇宙的多人合作游戏。"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": 45,
+  "slug": "honor-of-kings",
+  "name": "王者荣耀",
+  "released": "2015-11-26",
+  "background_image": "https://img.iesdouyin.com/raw/king-of-glory-cover.jpg",
+  "hero_image": "",
+  "rating": 4.1,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 9,
+      "name": "MOBA",
+      "slug": "moba"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "中国最受欢迎的手游 MOBA，日活用户过亿。5v5 三路对战，选择超过 100 名来自中国历史和神话的英雄，与队友配合摧毁敌方水晶。相比端游 MOBA，王者荣耀主打快节奏——每局约 15 分钟，技能流畅度、打击感和社交系统均针对移动端深度优化。",
+  "developers": [
+    {
+      "id": 60,
+      "name": "TiMi Studio Group"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 60,
+      "name": "Tencent"
+    }
+  ],
+  "tags": [],
+  "gameplay": "5v5 三路推塔——选择英雄走对应分路（对抗路、发育路、中路、打野、辅助）。推塔、拿龙、团战，最终摧毁敌方水晶获得胜利。英雄定位分明：坦克、战士、刺客、法师、射手、辅助。排位系统从青铜到荣耀王者。装备在局内购买，每局从零开始。社交系统强大：组队开黑、战队、亲密关系。",
+  "recommendation": "王者荣耀是中国手游市场不可撼动的王者。快节奏、低门槛、强社交——它精准击中了移动端 MOBA 的痛点。虽然社区环境偶有争议，但从纯粹的竞技体验和操作手感来看，它依然是移动端 MOBA 的天花板。如果你想找一款和朋友一起开黑的手游，王者是最稳妥的选择。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "移动端 MOBA 的天花板，操作流畅度极高。",
+    "社交系统强大，和朋友开黑乐趣无穷。",
+    "英雄设计多样，总有适合你的角色。",
+    "匹配环境参差不齐，偶有消极游戏行为。"
+  ],
+  "screenshots": [],
+  "news": []
+}

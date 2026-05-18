@@ -1,0 +1,128 @@
+{
+  "id": 6,
+  "slug": "the-witcher-3",
+  "name": "巫师 3: 狂猎",
+  "released": "2015-05-19",
+  "background_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_600x900.jpg",
+  "hero_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_hero.jpg",
+  "rating": 4.6,
+  "metacritic": 93,
+  "genres": [
+    {
+      "id": 2,
+      "name": "角色扮演",
+      "slug": "role-playing-games-rpg"
+    },
+    {
+      "id": 3,
+      "name": "冒险",
+      "slug": "adventure"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 1,
+        "name": "PC",
+        "slug": "pc"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 2,
+        "name": "PlayStation 4",
+        "slug": "playstation-4"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 3,
+        "name": "PlayStation 5",
+        "slug": "playstation-5"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 4,
+        "name": "Xbox One",
+        "slug": "xbox-one"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 5,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Mature"
+  },
+  "description_raw": "巫师 3: 狂猎 是 CD Projekt Red 开发的开放世界角色扮演游戏，改编自波兰作家安杰伊·萨普科夫斯基的小说。玩家扮演传奇猎魔人杰洛特，在饱受战乱蹂躏的北方王国中寻找养女希里。游戏以其深刻的叙事、丰富的支线任务和庞大的世界观被誉为史上最伟大的 RPG 之一。",
+  "developers": [
+    {
+      "id": 1,
+      "name": "CD Projekt Red"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "CD Projekt"
+    }
+  ],
+  "tags": [],
+  "gameplay": "第三人称动作 RPG，钢剑对人、银剑对怪的经典双剑系统。法印战斗提供五种魔法能力：阿尔德冲击、伊格尼火焰、昆恩护盾、亚登陷阱和亚克西魅惑。炼金系统支持煎药、炸弹与剑油制作。开放世界分为威伦、史凯利格、诺维格瑞等多个区域，每处都有独特生态。",
+  "recommendation": "即使发售十年后，巫师 3 依然是最优秀的 RPG 之一。石之心和血与酒两个 DLC 体量堪比完整游戏。次世代更新带来了光追画面和中文配音。如果你喜欢深刻的故事、复杂的道德抉择和庞大的奇幻世界，这款游戏是必玩之作。",
+  "requirements": {
+    "minCpu": "Intel Core i5-2500K",
+    "minGpu": "NVIDIA GeForce GTX 660",
+    "minRamGB": 6,
+    "minVramGB": 2,
+    "recCpu": "Intel Core i7-3770",
+    "recGpu": "NVIDIA GeForce GTX 770",
+    "recRamGB": 8,
+    "recVramGB": 4
+  },
+  "reviews": [
+    "支线任务质量堪称业界最高，每个都有完整的故事和情感。",
+    "杰洛特和希里的父女情感人至深，角色塑造顶级。",
+    "昆特牌是游戏史上最成功的内置小游戏之一。",
+    "战斗系统虽然流畅但深度不足，后期略显单调。",
+    "血与酒 DLC 的画面和叙事达到新高度，体量堪比完整游戏。",
+    "音乐配乐民族风格浓郁，史凯利格群岛的配乐尤为出色。"
+  ],
+  "screenshots": [
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_hero.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_600x900.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/hero_capsule.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/page_bg_generated_v4b.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_467x181.jpg",
+    "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_231x87.jpg"
+  ],
+  "news": [
+    {
+      "date": "2024-11-10",
+      "title": "次世代更新 4.04 版本发布",
+      "summary": "进一步优化光追性能，新增跨平台存档功能。"
+    },
+    {
+      "date": "2024-05-19",
+      "title": "巫师 3 九周年纪念",
+      "summary": "CDPR 发布幕后纪录片，回顾这款传奇 RPG 的开发历程。"
+    },
+    {
+      "date": "2023-12-14",
+      "title": "Netflix 联动任务回归",
+      "summary": "限时回归 Netflix 剧集联动任务，获取专属猎魔人装备。"
+    }
+  ]
+}

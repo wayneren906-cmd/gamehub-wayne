@@ -1,0 +1,73 @@
+{
+  "id": 40,
+  "slug": "super-smash-bros-ultimate",
+  "name": "任天堂明星大乱斗 特别版",
+  "released": "2018-12-07",
+  "background_image": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/games/switch/s/super-smash-bros-ultimate-switch/hero",
+  "hero_image": "",
+  "rating": 4.7,
+  "metacritic": 93,
+  "genres": [
+    {
+      "id": 8,
+      "name": "格斗",
+      "slug": "fighting"
+    },
+    {
+      "id": 1,
+      "name": "动作",
+      "slug": "action"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 7,
+        "name": "Nintendo Switch",
+        "slug": "nintendo-switch"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone 10+"
+  },
+  "description_raw": "游戏史上最盛大的跨界作品——89 名来自任天堂及第三方经典角色的全明星格斗盛宴。马力欧、林克、皮卡丘、索尼克、斯内克、克劳德……所有斗士悉数回归。不论你是派对游戏玩家还是竞技格斗高手，大乱斗都能让你热血沸腾。",
+  "developers": [
+    {
+      "id": 56,
+      "name": "Bandai Namco"
+    },
+    {
+      "id": 57,
+      "name": "Sora Ltd."
+    }
+  ],
+  "publishers": [
+    {
+      "id": 50,
+      "name": "Nintendo"
+    }
+  ],
+  "tags": [],
+  "gameplay": "平台格斗——不是传统格斗游戏的体力制，而是将对手击飞出屏幕为目标。伤害越高越容易被击飞，创造了独特的逆转与翻盘体验。89 名斗士各有完全不同的招式体系。单人「灯火之星」冒险模式提供数十小时内容。支持本地 8 人对战和在线匹配。",
+  "recommendation": "这不仅仅是一款格斗游戏——它是电子游戏史的活博物馆。89 名斗士、100+ 场地、900+ 首音乐，体量之庞大令人咋舌。无论你是约上三五好友开派对，还是独自挑战在线对战，大乱斗都能提供顶级的娱乐体验。Switch 必入之作。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "游戏史上最宏大的跨界合作，角色阵容无可匹敌。",
+    "上手简单但深度惊人，易学难精的格斗设计。",
+    "灯火之星冒险模式满满的情怀。",
+    "本地多人派对效果极佳。"
+  ],
+  "screenshots": [],
+  "news": []
+}

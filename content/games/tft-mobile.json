@@ -1,0 +1,72 @@
+{
+  "id": 57,
+  "slug": "tft-mobile",
+  "name": "金铲铲之战",
+  "released": "2021-08-26",
+  "background_image": "https://img.tftm.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.3,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Everyone"
+  },
+  "description_raw": "英雄联盟云顶之弈的正版授权手游。8 人各自为战的自动战斗策略游戏——从共享卡池中招募英雄，构筑阵容羁绊，每回合自动对战。不需要操作技术，纯粹考验策略规划和临场决策。相比端游版本拥有更多赛季主题和专属内容。",
+  "developers": [
+    {
+      "id": 73,
+      "name": "Riot Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 60,
+      "name": "Tencent"
+    }
+  ],
+  "tags": [],
+  "gameplay": "自动战斗策略——每回合从随机刷新的英雄中选择购买，搭配种族和职业羁绊。经济管理是核心：连胜/连败奖励、利息积累、升级时机都是决策关键。装备系统赋予英雄额外强度。8 人共享卡池，需要观察对手阵容避免撞车。每赛季全新主题和羁绊刷新游戏体验。",
+  "recommendation": "金铲铲是移动端最上瘾的策略游戏之一——不需要手速和操作，纯粹的策略博弈让每一局都像解一道新谜题。赛季更新频繁，每个赛季的羁绊和主题都充满新意。无论你是自走棋爱好者还是策略游戏玩家，金铲铲都值得在你的手机里占据一席之地。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "自走棋品类在移动端的最佳体验。",
+    "赛季更新频繁，羁绊设计有创意。",
+    "策略深度高，经济管理很有讲究。",
+    "随机性有时令人沮丧，运气成分偏高。"
+  ],
+  "screenshots": [],
+  "news": []
+}

@@ -1,0 +1,77 @@
+{
+  "id": 56,
+  "slug": "lol-wild-rift",
+  "name": "英雄联盟手游",
+  "released": "2020-10-27",
+  "background_image": "https://img.wildrift.com/cover.jpg",
+  "hero_image": "",
+  "rating": 4.2,
+  "metacritic": 0,
+  "genres": [
+    {
+      "id": 9,
+      "name": "MOBA",
+      "slug": "moba"
+    },
+    {
+      "id": 7,
+      "name": "策略",
+      "slug": "strategy"
+    }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 8,
+        "name": "iOS",
+        "slug": "ios"
+      },
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 9,
+        "name": "Android",
+        "slug": "android"
+      },
+      "requirements": {}
+    }
+  ],
+  "esrb_rating": {
+    "name": "Teen"
+  },
+  "description_raw": "Riot Games 将英雄联盟带到移动端的诚意之作。并非端游的简单移植，而是从零为移动端重建——双摇杆操控、15-20 分钟一局、保留端游核心深度同时简化了部分操作。40+ 名英雄的经典技能悉数还原，让召唤师在任何地方都能体验峡谷对决。",
+  "developers": [
+    {
+      "id": 73,
+      "name": "Riot Games"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 73,
+      "name": "Riot Games"
+    }
+  ],
+  "tags": [],
+  "gameplay": "5v5 三路 MOBA——从端游简化但保留核心策略深度。双摇杆操控（移动+瞄准）为移动端优化。一局约 15-20 分钟，比端游更快。补刀、视野、龙团等核心机制保留。英雄还原度高：盲僧回旋踢、亚索风墙、劫影杀阵等高操作英雄均可实现。排位系统与端游独立但逻辑一致。",
+  "recommendation": "英雄联盟手游是 PC MOBA 移动化的最优解——它没有为了手机而牺牲深度，也没有为了还原而忽视操控舒适度。如果你是 LOL 端游老玩家，熟悉的英雄和节奏会让你很快上手；如果你是新玩家，精简后的机制也足够友好。在移动端 MOBA 中，它的竞技纯度为最高。",
+  "requirements": {
+    "minCpu": "",
+    "minGpu": "",
+    "minRamGB": 0,
+    "minVramGB": 0,
+    "recCpu": "",
+    "recGpu": "",
+    "recRamGB": 0,
+    "recVramGB": 0
+  },
+  "reviews": [
+    "移动端还原度最高的英雄联盟体验。",
+    "双摇杆操控对移动端优化出色。",
+    "英雄操作深度保留完好。",
+    "匹配队列时间偶有偏长。"
+  ],
+  "screenshots": [],
+  "news": []
+}
