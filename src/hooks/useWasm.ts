@@ -18,7 +18,6 @@ export function useWasm() {
     async function init() {
       try {
         const wasmModule = await import("../../wasm/pkg/gamehub_wasm.js");
-        // init loads and instantiates the WASM binary
         await wasmModule.default("/wasm/gamehub_wasm_bg.wasm");
         if (!cancelled) {
           wasmRef.current = wasmModule as unknown as WasmExports;

@@ -1,51 +1,107 @@
 @import "tailwindcss";
 
 @layer base {
-  html {
-    color-scheme: dark;
+  :root {
+    --bg: #f5f5f5;
+    --surface: #ffffff;
+    --border: #e8e8e8;
+    --brand: #15B04F;
+    --brand-soft: #e8f5ec;
+    --star: #ff9500;
   }
 
-  html.dark {
-    color-scheme: dark;
-  }
+  html { color-scheme: light; }
 
   body {
-    @apply bg-zinc-950 text-zinc-400 antialiased;
-    font-family: "Inter", "Geist", system-ui, sans-serif;
+    @apply bg-[#f5f5f5] text-[#333333] antialiased;
+    font-family: "Inter", "Geist", system-ui, -apple-system, sans-serif;
   }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.2); }
 }
 
 @layer components {
-  .glass-card {
-    @apply bg-black/40 backdrop-blur-md border border-white/10 rounded-lg;
+  /* Card — white background, subtle shadow */
+  .card {
+    @apply bg-white rounded-2xl border border-[#e8e8e8] overflow-hidden;
+  }
+  .card-hover {
+    @apply bg-white rounded-2xl border border-[#e8e8e8] overflow-hidden
+           transition-all duration-200;
+  }
+  .card-hover:hover {
+    border-color: #15B04F40;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transform: translateY(-2px);
   }
 
-  .glass-nav {
-    @apply bg-black/40 backdrop-blur-md border-b border-white/10;
+  /* Section header */
+  .section-header {
+    @apply flex items-center justify-between mb-3;
+  }
+  .section-title {
+    @apply text-[17px] font-bold text-[#1a1a1a];
+  }
+  .section-more {
+    @apply text-[13px] text-[#999] hover:text-[#15B04F] transition-colors flex items-center gap-0.5;
   }
 
-  .heading-high {
-    @apply text-white font-bold tracking-tight;
+  /* Tag / chip */
+  .chip {
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-[11px]
+           bg-[#f0f0f0] text-[#666] transition-colors;
   }
 
-  .body-muted {
-    @apply text-zinc-400 text-sm leading-relaxed;
+  /* Score badge */
+  .score {
+    @apply inline-flex items-center gap-1 text-xs font-semibold;
+    font-family: "JetBrains Mono", "Inter", monospace;
+  }
+  .score-star {
+    color: #ff9500;
   }
 
-  .skeleton-shimmer {
-    @apply relative overflow-hidden bg-white/5 rounded-md;
-  }
-  .skeleton-shimmer::after {
-    content: "";
-    @apply absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent;
-    animation: shimmer 1.5s ease-in-out infinite;
+  /* Green brand button */
+  .btn-brand {
+    @apply inline-flex items-center justify-center gap-1.5 px-5 py-2.5
+           bg-[#15B04F] text-white text-sm font-semibold rounded-xl
+           hover:bg-[#149a46] transition-colors;
   }
 }
 
 @layer utilities {
-  .glow-orb {
-    @apply absolute rounded-full pointer-events-none;
-    filter: blur(80px);
-    will-change: transform;
+  /* Hide scrollbar for horizontal scroll rows */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shimmer-bg {
+    background: linear-gradient(110deg, #f0f0f0 0%, #e8e8e8 50%, #f0f0f0 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s ease-in-out infinite;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-fade-in { animation: fade-in 0.3s ease-out; }
+
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-slide-up { animation: slide-up 0.4s ease-out; }
 }

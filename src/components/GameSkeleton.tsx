@@ -2,8 +2,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export function GameCardSkeleton() {
   return (
-    <div className="glass-card p-3 space-y-3">
-      <Skeleton className="aspect-[3/4] w-full rounded-md" />
+    <div className="card p-3 space-y-3">
+      <Skeleton className="aspect-video w-full rounded-md" />
       <div className="space-y-2">
         <Skeleton className="h-4 w-3/4" />
         <Skeleton className="h-3 w-1/2" />

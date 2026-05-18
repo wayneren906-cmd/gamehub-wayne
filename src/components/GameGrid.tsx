@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import { motion } from "framer-motion";
 import { GameCard } from "@/components/GameCard";
 import { GameGridSkeleton } from "@/components/GameSkeleton";
@@ -12,12 +13,17 @@ interface GameGridProps {
   totalCount?: number;
 }
 
-export function GameGrid({ games, loading, error, totalCount }: GameGridProps) {
+export const GameGrid = memo(function GameGrid({
+  games,
+  loading,
+  error,
+  totalCount,
+}: GameGridProps) {
   if (error) {
     return (
-      <div className="glass-card p-12 text-center">
-        <p className="text-red-400 mb-2">加载失败</p>
-        <p className="text-zinc-500 text-sm">{error}</p>
+      <div className="card p-12 text-center">
+        <p className="text-red-500 mb-2">加载失败</p>
+        <p className="text-[#999] text-sm">{error}</p>
       </div>
     );
   }
@@ -28,9 +34,9 @@ export function GameGrid({ games, loading, error, totalCount }: GameGridProps) {
 
   if (games.length === 0) {
     return (
-      <div className="glass-card p-12 text-center">
-        <p className="text-zinc-500">没有找到游戏</p>
-        <p className="text-zinc-600 text-sm mt-1">尝试调整筛选条件</p>
+      <div className="card p-12 text-center">
+        <p className="text-[#666] mb-1">没有找到匹配的游戏</p>
+        <p className="text-[#999] text-sm">试试调整筛选条件或搜索其他关键词</p>
       </div>
     );
   }
@@ -38,7 +44,7 @@ export function GameGrid({ games, loading, error, totalCount }: GameGridProps) {
   return (
     <div>
       {totalCount && (
-        <p className="text-xs text-zinc-600 mb-4">
+        <p className="text-xs text-[#999] mb-4">
           共 {totalCount.toLocaleString()} 款游戏
         </p>
       )}
@@ -57,4 +63,4 @@ export function GameGrid({ games, loading, error, totalCount }: GameGridProps) {
       </motion.div>
     </div>
   );
-}
+});

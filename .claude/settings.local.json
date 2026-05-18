@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(brainstorming)",
+      "Skill(brainstorming:*)",
+      "Bash(npm run *)",
+      "WebFetch(domain:master.gamehub-dqd.pages.dev)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://master.gamehub-dqd.pages.dev\")",
+      "Bash(curl -s \"https://master.gamehub-dqd.pages.dev\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://master.gamehub-dqd.pages.dev/leaderboard\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://master.gamehub-dqd.pages.dev/game/cyberpunk-2077\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://master.gamehub-dqd.pages.dev/_not-found\")",
+      "Bash(npx serve *)",
+      "Bash(npx next *)",
+      "Bash(npx kill-port *)"
+    ]
+  }
+}

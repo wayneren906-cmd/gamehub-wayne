@@ -26,7 +26,6 @@ function TagBubble({
   index: number;
   maxCount: number;
 }) {
-  // Size based on percentage relative to max
   const ratio = maxCount > 0 ? tag.percentage / 100 : 0.5;
   const baseSize = 12;
   const maxSize = 20;
@@ -45,8 +44,8 @@ function TagBubble({
       className={cn(
         "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border font-medium transition-colors cursor-default",
         type === "pro"
-          ? "bg-emerald-500/10 border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/20"
-          : "bg-red-500/10 border-red-500/30 text-red-400 hover:bg-red-500/20"
+          ? "bg-[#e8f5ec] border-[#15B04F]/30 text-[#15B04F] hover:bg-[#d4edd9]"
+          : "bg-red-50 border-red-200 text-red-500 hover:bg-red-100"
       )}
       style={{ fontSize: `${fontSize}px` }}
       title={`${tag.percentage}% 的玩家提及 (约 ${tag.count} 条评价)`}
@@ -72,14 +71,14 @@ export function AIReviewCloud({
   );
 
   return (
-    <div className="glass-card p-6 space-y-6">
+    <div className="card p-6 space-y-6">
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Sparkles size={20} className="text-indigo-400" />
-          <h3 className="heading-high text-lg">AI 玩家评价分析</h3>
+          <Sparkles size={20} className="text-[#15B04F]" />
+          <h3 className="text-lg font-bold text-[#1a1a1a]">AI 玩家评价分析</h3>
           {loading && (
-            <span className="text-xs text-zinc-500 animate-pulse">分析中...</span>
+            <span className="text-xs text-[#999] animate-pulse">分析中...</span>
           )}
         </div>
         {onRefresh && (
@@ -95,7 +94,7 @@ export function AIReviewCloud({
           <motion.p
             initial={{ opacity: 0, y: -8 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-zinc-300 text-sm leading-relaxed border-l-2 border-indigo-500/50 pl-3"
+            className="text-[#333] text-sm leading-relaxed border-l-2 border-[#15B04F]/50 pl-3"
           >
             {summary}
           </motion.p>
@@ -106,7 +105,7 @@ export function AIReviewCloud({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Pros */}
         <div className="space-y-3">
-          <div className="flex items-center gap-1.5 text-emerald-400">
+          <div className="flex items-center gap-1.5 text-[#15B04F]">
             <ThumbsUp size={15} />
             <span className="text-sm font-semibold">玩家好评</span>
           </div>
@@ -117,14 +116,14 @@ export function AIReviewCloud({
               ))}
             </AnimatePresence>
             {pros.length === 0 && !loading && (
-              <p className="text-xs text-zinc-600">暂无数据</p>
+              <p className="text-xs text-[#999]">暂无数据</p>
             )}
           </div>
         </div>
 
         {/* Cons */}
         <div className="space-y-3">
-          <div className="flex items-center gap-1.5 text-red-400">
+          <div className="flex items-center gap-1.5 text-red-500">
             <ThumbsDown size={15} />
             <span className="text-sm font-semibold">玩家批评</span>
           </div>
@@ -135,14 +134,14 @@ export function AIReviewCloud({
               ))}
             </AnimatePresence>
             {cons.length === 0 && !loading && (
-              <p className="text-xs text-zinc-600">暂无数据</p>
+              <p className="text-xs text-[#999]">暂无数据</p>
             )}
           </div>
         </div>
       </div>
 
       {/* Footer */}
-      <p className="text-xs text-zinc-600 text-center">
+      <p className="text-xs text-[#999] text-center">
         基于玩家评价的 AI 分析 · 数据来源: {gameName} 社区评价
       </p>
     </div>

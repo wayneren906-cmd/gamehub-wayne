@@ -43,7 +43,7 @@ function drawRadar(
       else ctx.lineTo(x, y);
     }
     ctx.closePath();
-    ctx.strokeStyle = "rgba(255,255,255,0.1)";
+    ctx.strokeStyle = "rgba(0,0,0,0.08)";
     ctx.lineWidth = 1;
     ctx.stroke();
   }
@@ -54,7 +54,7 @@ function drawRadar(
     ctx.beginPath();
     ctx.moveTo(cx, cy);
     ctx.lineTo(cx + radius * Math.cos(angle), cy + radius * Math.sin(angle));
-    ctx.strokeStyle = "rgba(255,255,255,0.15)";
+    ctx.strokeStyle = "rgba(0,0,0,0.12)";
     ctx.stroke();
   }
 
@@ -70,9 +70,9 @@ function drawRadar(
     else ctx.lineTo(x, y);
   }
   ctx.closePath();
-  ctx.fillStyle = "rgba(99,102,241,0.25)";
+  ctx.fillStyle = "rgba(21,176,79,0.2)";
   ctx.fill();
-  ctx.strokeStyle = "rgba(99,102,241,0.8)";
+  ctx.strokeStyle = "rgba(21,176,79,0.8)";
   ctx.lineWidth = 2;
   ctx.stroke();
 
@@ -85,12 +85,12 @@ function drawRadar(
     const y = cy + r * Math.sin(angle);
     ctx.beginPath();
     ctx.arc(x, y, 4, 0, Math.PI * 2);
-    ctx.fillStyle = "#818cf8";
+    ctx.fillStyle = "#15B04F";
     ctx.fill();
   }
 
   // Draw labels
-  ctx.fillStyle = "#a1a1aa";
+  ctx.fillStyle = "#666666";
   ctx.font = "12px Inter, system-ui, sans-serif";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
@@ -119,7 +119,7 @@ export function HardwareRadar({ result, loading }: HardwareRadarProps) {
     ctx.scale(dpr, dpr);
 
     if (loading) {
-      ctx.fillStyle = "#a1a1aa";
+      ctx.fillStyle = "#999999";
       ctx.font = "14px Inter, sans-serif";
       ctx.textAlign = "center";
       ctx.fillText("计算中...", rect.width / 2, rect.height / 2);
@@ -127,7 +127,7 @@ export function HardwareRadar({ result, loading }: HardwareRadarProps) {
     }
 
     if (!result) {
-      ctx.fillStyle = "#52525b";
+      ctx.fillStyle = "#999999";
       ctx.font = "14px Inter, sans-serif";
       ctx.textAlign = "center";
       ctx.fillText("输入硬件信息以查看兼容性", rect.width / 2, rect.height / 2);

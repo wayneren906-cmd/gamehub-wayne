@@ -1,110 +1,63 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import type { Game, GameListResponse } from "@/types/game";
+import { useState, useMemo } from "react";
+import type { Game, GameDetail } from "@/types/game";
+import { ALL_GAMES, searchGames, getGamesByGenre } from "@/lib/games";
 import type { Filters } from "@/components/FilterBar";
-import { MOCK_GAMES } from "@/lib/mock-games";
-
-const WORKER_URL =
-  process.env.NEXT_PUBLIC_WORKER_URL || "https://gamehub-worker.example.workers.dev";
 
 export function useGames(filters: Filters) {
-  const [games, setGames] = useState<Game[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [totalCount, setTotalCount] = useState(0);
+  const filtered = useMemo(() => {
+    let result: Game[] = ALL_GAMES;
 
-  const fetchGames = useCallback(async () => {
-    setLoading(true);
-    setError(null);
-
-    try {
-      const url = new URL(`${WORKER_URL}/api/games`);
-      url.searchParams.set("page_size", "20");
-      url.searchParams.set("ordering", filters.ordering || "-rating");
-      if (filters.genres) url.searchParams.set("genres", filters.genres);
-      if (filters.search) url.searchParams.set("search", filters.search);
-
-      const response = await fetch(url.toString());
-      if (!response.ok) throw new Error(`API error: ${response.status}`);
-
-      const data: GameListResponse = await response.json();
-      setGames(data.results);
-      setTotalCount(data.count);
-    } catch {
-      // Fallback to mock data when Worker is unavailable
-      let filtered = [...MOCK_GAMES];
-
-      if (filters.search) {
-        const q = filters.search.toLowerCase();
-        filtered = filtered.filter((g) => g.name.toLowerCase().includes(q));
-      }
-
-      if (filters.genres) {
-        filtered = filtered.filter((g) =>
-          g.genres.some((genre) => genre.slug === filters.genres)
-        );
-      }
-
-      // Sort
-      switch (filters.ordering) {
-        case "-rating":
-          filtered.sort((a, b) => b.rating - a.rating);
-          break;
-        case "-metacritic":
-          filtered.sort((a, b) => b.metacritic - a.metacritic);
-          break;
-        case "-released":
-          filtered.sort((a, b) => new Date(b.released).getTime() - new Date(a.released).getTime());
-          break;
-        case "name":
-          filtered.sort((a, b) => a.name.localeCompare(b.name));
-          break;
-      }
-
-      setGames(filtered);
-      setTotalCount(filtered.length);
+    if (filters.search) {
+      result = searchGames(filters.search);
     }
 
-    setLoading(false);
-  }, [filters]);
+    if (filters.genres) {
+      result = getGamesByGenre(filters.genres);
+      if (filters.search) {
+        // intersect search results with genre filter
+        const ids = new Set(searchGames(filters.search).map((g) => g.slug));
+        result = result.filter((g) => ids.has(g.slug));
+      }
+    }
 
-  useEffect(() => {
-    fetchGames();
-  }, [fetchGames]);
+    // Sort
+    switch (filters.ordering) {
+      case "-rating":
+        result = [...result].sort((a, b) => b.rating - a.rating);
+        break;
+      case "-metacritic":
+        result = [...result].sort((a, b) => b.metacritic - a.metacritic);
+        break;
+      case "-released":
+        result = [...result].sort((a, b) => new Date(b.released).getTime() - new Date(a.released).getTime());
+        break;
+      case "name":
+        result = [...result].sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      default:
+        result = [...result].sort((a, b) => b.rating - a.rating);
+    }
 
-  return { games, loading, error, totalCount, refetch: fetchGames };
+    return result;
+  }, [filters.search, filters.genres, filters.ordering]);
+
+  return {
+    games: filtered as Game[],
+    loading: false,
+    error: null,
+    totalCount: filtered.length,
+    refetch: () => {},
+  };
 }
 
 export function useFeaturedGames() {
-  const [featured, setFeatured] = useState<Game[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // Try worker, fallback to top-rated mock games
-    const fetchFeatured = async () => {
-      try {
-        const url = new URL(`${WORKER_URL}/api/games`);
-        url.searchParams.set("page_size", "5");
-        url.searchParams.set("ordering", "-metacritic");
-        url.searchParams.set("dates", "2020-01-01,2026-12-31");
-
-        const response = await fetch(url.toString());
-        if (!response.ok) throw new Error("API error");
-
-        const data: GameListResponse = await response.json();
-        setFeatured(data.results);
-      } catch {
-        const top = [...MOCK_GAMES]
-          .sort((a, b) => b.metacritic - a.metacritic)
-          .slice(0, 5);
-        setFeatured(top);
-      }
-      setLoading(false);
-    };
-
-    fetchFeatured();
+  const featured = useMemo(() => {
+    return [...ALL_GAMES]
+      .sort((a, b) => b.metacritic - a.metacritic)
+      .slice(0, 5);
   }, []);
 
-  return { featured, loading };
+  return { featured, loading: false };
 }

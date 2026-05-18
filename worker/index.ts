@@ -7,7 +7,7 @@ import { analyzeReviews } from "./ai";
 const CACHE_TTL = 3600;
 
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
 
     const corsHeaders = {
@@ -28,6 +28,58 @@ export default {
 
     if (!url.pathname.startsWith("/api/")) {
       return new Response("Not Found", { status: 404, headers: corsHeaders });
+    }
+
+    // Image proxy — fetch from media.rawg.io (accessible from Cloudflare edge)
+    if (url.pathname.startsWith("/api/images/")) {
+      const imagePath = url.pathname.replace("/api/images/", "");
+      let imageUrl = `https://media.rawg.io/media/${imagePath}`;
+
+      // Append sizing params if provided — rawg.io supports width cropping
+      const w = url.searchParams.get("w");
+      if (w) imageUrl += `?w=${w}`;
+
+      const accept = request.headers.get("Accept") || "";
+      const supportsWebp = accept.includes("image/webp");
+
+      const cache = caches.default;
+      const cached = await cache.match(request);
+      if (cached) return cached;
+
+      try {
+        const fetchHeaders: Record<string, string> = {
+          "User-Agent": "GameHub/1.0 (Cloudflare Worker)",
+        };
+        // Signal upstream we prefer WebP if the client supports it
+        if (supportsWebp) {
+          fetchHeaders["Accept"] = "image/webp,image/avif,image/*";
+        }
+
+        const imageResponse = await fetch(imageUrl, { headers: fetchHeaders });
+
+        if (!imageResponse.ok) {
+          return new Response("Image not found", { status: 404, headers: corsHeaders });
+        }
+
+        const headers = new Headers(imageResponse.headers);
+        headers.set("Cache-Control", "public, max-age=86400, s-maxage=604800");
+        headers.set("Access-Control-Allow-Origin", "*");
+        headers.delete("Set-Cookie");
+
+        if (supportsWebp && imageResponse.headers.get("Content-Type")?.includes("webp")) {
+          headers.set("Vary", "Accept");
+        }
+
+        const response = new Response(imageResponse.body, {
+          status: imageResponse.status,
+          headers,
+        });
+
+        ctx.waitUntil(cache.put(request, response.clone()));
+        return response;
+      } catch {
+        return new Response("Image proxy error", { status: 502, headers: corsHeaders });
+      }
     }
 
     // Rate limit

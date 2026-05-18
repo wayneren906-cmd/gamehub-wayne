@@ -1,7 +1,5 @@
 import { Game, GameListResponse } from "@/types/game";
-
-const WORKER_URL =
-  process.env.NEXT_PUBLIC_WORKER_URL || "https://gamehub-worker.example.workers.dev";
+import { WORKER_URL } from "@/lib/constants";
 
 async function apiFetch<T>(
   path: string,

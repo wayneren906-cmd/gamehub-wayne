@@ -12,7 +12,6 @@ interface GameRequirementsProps {
   requirements: GameReq;
 }
 
-// Reasonable defaults for user hardware (can be customized)
 const DEFAULT_USER: HardwareSpec = {
   cpu: "Intel Core i7-12700H",
   gpu: "NVIDIA GeForce RTX 3060",
@@ -36,8 +35,8 @@ export function GameRequirements({ gameName, requirements }: GameRequirementsPro
   }, [userSpec, requirements, checkCompatibility]);
 
   return (
-    <div className="glass-card p-6 space-y-6">
-      <h3 className="heading-high text-lg flex items-center gap-2">
+    <div className="card p-6 space-y-6">
+      <h3 className="text-lg font-bold text-[#1a1a1a] flex items-center gap-2">
         <Monitor size={18} />
         硬件兼容性检测
       </h3>
@@ -45,7 +44,7 @@ export function GameRequirements({ gameName, requirements }: GameRequirementsPro
       {/* Requirements display */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="space-y-3">
-          <h4 className="text-sm font-medium text-zinc-300 border-b border-white/10 pb-2">最低配置</h4>
+          <h4 className="text-sm font-medium text-[#333] border-b border-[#e8e8e8] pb-2">最低配置</h4>
           <div className="space-y-2 text-sm">
             <SpecRow icon={Cpu} label="CPU" value={requirements.minCpu} />
             <SpecRow icon={Monitor} label="GPU" value={requirements.minGpu} />
@@ -54,7 +53,7 @@ export function GameRequirements({ gameName, requirements }: GameRequirementsPro
           </div>
         </div>
         <div className="space-y-3">
-          <h4 className="text-sm font-medium text-zinc-300 border-b border-white/10 pb-2">推荐配置</h4>
+          <h4 className="text-sm font-medium text-[#333] border-b border-[#e8e8e8] pb-2">推荐配置</h4>
           <div className="space-y-2 text-sm">
             <SpecRow icon={Cpu} label="CPU" value={requirements.recCpu} />
             <SpecRow icon={Monitor} label="GPU" value={requirements.recGpu} />
@@ -65,8 +64,8 @@ export function GameRequirements({ gameName, requirements }: GameRequirementsPro
       </div>
 
       {/* User hardware input + test */}
-      <div className="border-t border-white/5 pt-4">
-        <h4 className="text-sm font-medium text-zinc-300 mb-3">检测你的配置</h4>
+      <div className="border-t border-[#e8e8e8] pt-4">
+        <h4 className="text-sm font-medium text-[#333] mb-3">检测你的配置</h4>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
           <QuickField label="CPU" value={userSpec.cpu} onChange={(v) => setUserSpec((s) => ({ ...s, cpu: v }))} />
           <QuickField label="GPU" value={userSpec.gpu} onChange={(v) => setUserSpec((s) => ({ ...s, gpu: v }))} />
@@ -79,14 +78,14 @@ export function GameRequirements({ gameName, requirements }: GameRequirementsPro
             {checking ? "检测中..." : "开始检测"}
           </Button>
           {wasmError && (
-            <span className="text-xs text-red-400">WASM 未就绪</span>
+            <span className="text-xs text-red-500">WASM 未就绪</span>
           )}
           {result && (
             <span className={cn(
               "text-sm font-semibold px-3 py-0.5 rounded-full",
               result.canRun
-                ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/30"
-                : "bg-red-500/10 text-red-400 border border-red-500/30"
+                ? "bg-[#e8f5ec] text-[#15B04F] border border-[#15B04F]/30"
+                : "bg-red-50 text-red-500 border border-red-200"
             )}>
               {result.qualityLevel}
             </span>
@@ -105,10 +104,10 @@ function SpecRow({ icon: Icon, label, value }: {
   value: string;
 }) {
   return (
-    <div className="flex items-center gap-2 text-zinc-400">
-      <Icon size={13} className="text-zinc-600 flex-shrink-0" />
-      <span className="text-zinc-600 w-10 flex-shrink-0">{label}</span>
-      <span className="text-zinc-300 truncate">{value}</span>
+    <div className="flex items-center gap-2 text-[#666]">
+      <Icon size={13} className="text-[#999] flex-shrink-0" />
+      <span className="text-[#999] w-10 flex-shrink-0">{label}</span>
+      <span className="text-[#333] truncate">{value}</span>
     </div>
   );
 }
@@ -120,12 +119,12 @@ function QuickField({
 }) {
   return (
     <div className="flex flex-col gap-1">
-      <label className="text-[11px] text-zinc-500">{label}</label>
+      <label className="text-[11px] text-[#999]">{label}</label>
       <input
         type={type}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="bg-white/5 border border-white/10 rounded-md px-2 py-1.5 text-sm text-zinc-200 focus:outline-none focus:border-indigo-500/50 transition-colors"
+        className="bg-[#f5f5f5] border border-[#e8e8e8] rounded-md px-2 py-1.5 text-sm text-[#333] focus:outline-none focus:border-[#15B04F]/50 transition-colors"
       />
     </div>
   );

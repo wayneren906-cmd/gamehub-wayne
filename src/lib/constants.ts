@@ -1,3 +1,6 @@
+export const WORKER_URL =
+  process.env.NEXT_PUBLIC_WORKER_URL || "https://gamehub.wayne-ren906.workers.dev";
+
 export const RAWG_BASE_URL = "https://api.rawg.io/api";
 
 export const CACHE_TTL_SECONDS = 3600;

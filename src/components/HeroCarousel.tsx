@@ -2,158 +2,143 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Game } from "@/types/game";
 import { GameImage } from "@/components/GameImage";
+import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 interface HeroCarouselProps {
   games: Game[];
+  compact?: boolean;
 }
 
-export function HeroCarousel({ games }: HeroCarouselProps) {
+export function HeroCarousel({ games, compact = false }: HeroCarouselProps) {
   const [current, setCurrent] = useState(0);
-  const [direction, setDirection] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const reducedMotion = useReducedMotion();
 
   const featured = games.slice(0, 5);
   const game = featured[current];
 
-  const goTo = useCallback(
-    (i: number) => {
-      setDirection(i > current ? 1 : -1);
-      setCurrent(i);
-    },
-    [current]
-  );
-
   const next = useCallback(() => {
-    setDirection(1);
+    if (paused) return;
     setCurrent((c) => (c + 1) % featured.length);
-  }, [featured.length]);
+  }, [featured.length, paused]);
 
   const prev = useCallback(() => {
-    setDirection(-1);
+    if (paused) return;
     setCurrent((c) => (c - 1 + featured.length) % featured.length);
-  }, [featured.length]);
+  }, [featured.length, paused]);
 
-  // Auto-advance
   useEffect(() => {
-    if (featured.length <= 1) return;
+    if (featured.length <= 1 || reducedMotion) return;
     const timer = setInterval(next, 5000);
     return () => clearInterval(timer);
-  }, [next, featured.length]);
+  }, [next, featured.length, reducedMotion]);
 
   if (featured.length === 0) return null;
 
-  const variants = {
-    enter: (d: number) => ({
-      x: d > 0 ? 300 : -300,
-      opacity: 0,
-    }),
-    center: {
-      x: 0,
-      opacity: 1,
-    },
-    exit: (d: number) => ({
-      x: d > 0 ? -300 : 300,
-      opacity: 0,
-    }),
-  };
-
   return (
-    <div className="relative w-full aspect-[21/9] max-h-[500px] rounded-xl overflow-hidden glass-card">
-      {/* Background image */}
-      <AnimatePresence initial={false} custom={direction} mode="wait">
+    <div
+      className="relative w-full rounded-2xl overflow-hidden bg-[#e8e8e8]"
+      style={{ aspectRatio: compact ? "3/1" : "2/1" }}
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
+      <AnimatePresence initial={false}>
         <motion.div
           key={current}
-          custom={direction}
-          variants={variants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+          initial={reducedMotion ? { opacity: 1 } : { opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={reducedMotion ? { opacity: 1 } : { opacity: 0 }}
+          transition={{ duration: 0.4 }}
           className="absolute inset-0"
         >
           <GameImage
-            src={game?.background_image || ""}
+            src={game?.hero_image || game?.background_image || ""}
             alt={game?.name || ""}
             fill
             className="object-cover"
             priority
-            sizes="100vw"
+            objectPosition={game?.hero_image ? "center" : "top"}
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
         </motion.div>
       </AnimatePresence>
 
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-
       {/* Content */}
-      <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={current}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight">
-              {game?.name}
-            </h2>
-            <div className="flex items-center gap-4 text-sm">
-              {game?.rating > 0 && (
-                <span className="flex items-center gap-1 text-yellow-400">
-                  <Star size={14} className="fill-yellow-400" />
-                  {game.rating.toFixed(1)}
+      <div className="relative h-full flex items-center">
+        <div className="w-full max-w-7xl mx-auto px-4 md:px-8">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={current}
+              initial={reducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={reducedMotion ? { opacity: 1, y: 0 } : { opacity: 0, y: -12 }}
+              transition={{ duration: 0.25 }}
+            >
+              <h2 className="text-xl md:text-3xl font-bold text-white mb-2 tracking-tight">
+                {game?.name}
+              </h2>
+              <div className="flex items-center gap-2 mb-3">
+                {game?.metacritic > 0 && (
+                  <span className="inline-flex items-center text-[12px] font-bold font-mono text-[#15B04F] bg-white/20 backdrop-blur-sm px-2 py-0.5 rounded">
+                    MC {game.metacritic}
+                  </span>
+                )}
+                <span className="flex items-center gap-0.5 text-[12px] text-[#ff9500] font-semibold bg-white/20 backdrop-blur-sm px-2 py-0.5 rounded">
+                  <Star size={10} className="fill-[#ff9500]" />
+                  {game?.rating?.toFixed(1)}
                 </span>
-              )}
-              {game?.metacritic > 0 && (
-                <span className="text-green-400 font-bold">{game.metacritic}</span>
-              )}
-              {game?.genres && (
-                <span className="text-zinc-400">
-                  {game.genres.slice(0, 3).map((g) => g.name).join(" · ")}
+                <span className="text-[12px] text-white/70">
+                  {game?.genres?.slice(0, 2).map((g) => g.name).join(" · ")}
                 </span>
-              )}
-            </div>
-          </motion.div>
-        </AnimatePresence>
+              </div>
+              <Link
+                href={`/game/${game?.slug}`}
+                className="inline-flex items-center px-5 py-2 rounded-xl bg-[#15B04F] text-white text-sm font-semibold hover:bg-[#149a46] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+              >
+                查看详情
+              </Link>
+            </motion.div>
+          </AnimatePresence>
+        </div>
       </div>
 
-      {/* Navigation arrows */}
+      {/* Navigation */}
       {featured.length > 1 && (
-        <>
+        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-2">
           <button
             onClick={prev}
-            className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/40 backdrop-blur-sm border border-white/10 flex items-center justify-center text-white hover:bg-white/10 transition-colors"
-            aria-label="上一个"
+            className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+            aria-label="上一张"
           >
-            <ChevronLeft size={20} />
+            <ChevronLeft size={16} className="text-white" />
           </button>
+          <div className="flex items-center gap-1.5">
+            {featured.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrent(i)}
+                className="rounded-full transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+                style={{
+                  width: i === current ? 16 : 6,
+                  height: 6,
+                  background: i === current ? "#fff" : "rgba(255,255,255,0.4)",
+                }}
+                aria-label={`第 ${i + 1} 张`}
+              />
+            ))}
+          </div>
           <button
             onClick={next}
-            className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-black/40 backdrop-blur-sm border border-white/10 flex items-center justify-center text-white hover:bg-white/10 transition-colors"
-            aria-label="下一个"
+            className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center hover:bg-white/30 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+            aria-label="下一张"
           >
-            <ChevronRight size={20} />
+            <ChevronRight size={16} className="text-white" />
           </button>
-        </>
-      )}
-
-      {/* Dots */}
-      {featured.length > 1 && (
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-          {featured.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => goTo(i)}
-              className={`w-2 h-2 rounded-full transition-all ${
-                i === current ? "bg-white w-6" : "bg-white/40 hover:bg-white/60"
-              }`}
-              aria-label={`第 ${i + 1} 张`}
-            />
-          ))}
         </div>
       )}
     </div>

@@ -1,25 +1,17 @@
 name = "gamehub"
+main = "worker/index.ts"
 compatibility_date = "2025-05-15"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
 
-[[workers]]
-name = "gamehub-api"
-main = "worker/index.ts"
-
-[[workers.kv_namespaces]]
+[[kv_namespaces]]
 binding = "RAW_GAMES_KV"
-id = "RAW_GAMES_KV_NAMESPACE_ID"
-preview_id = "RAW_GAMES_KV_PREVIEW_ID"
+id = "89d042301f2d49a384bc98fe70ae36a7"
 
-[[workers.kv_namespaces]]
+[[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = "RATE_LIMIT_KV_NAMESPACE_ID"
-preview_id = "RATE_LIMIT_KV_PREVIEW_ID"
+id = "33963cd7d1c6464c9880c7160d5f8f65"
 
-[workers.vars]
-RAWG_API_KEY = ""
+pages_build_output_dir = "out"
 
-[env.production]
-[env.production.vars]
-RAWG_API_KEY = ""
+[observability]
+enabled = true

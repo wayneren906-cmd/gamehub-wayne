@@ -33,7 +33,6 @@ export function HardwareChecker() {
 
   const handleCheck = useCallback(() => {
     setChecking(true);
-    // Small delay to let the UI breathe
     setTimeout(() => {
       const r = checkCompatibility(userSpec, gameReq);
       setResult(r);
@@ -42,11 +41,11 @@ export function HardwareChecker() {
   }, [userSpec, gameReq, checkCompatibility]);
 
   return (
-    <div className="glass-card p-6 space-y-6">
-      <h3 className="heading-high text-lg">硬件兼容性检测</h3>
+    <div className="card p-6 space-y-6">
+      <h3 className="text-lg font-bold text-[#1a1a1a]">硬件兼容性检测</h3>
 
       {wasmError && (
-        <div className="bg-red-500/10 border border-red-500/30 rounded-md p-3 text-red-400 text-sm">
+        <div className="bg-red-50 border border-red-200 rounded-md p-3 text-red-500 text-sm">
           WASM 加载失败: {wasmError}
         </div>
       )}
@@ -54,7 +53,7 @@ export function HardwareChecker() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* User Hardware */}
         <div className="space-y-3">
-          <h4 className="text-sm font-medium text-zinc-300">你的硬件</h4>
+          <h4 className="text-sm font-medium text-[#333]">你的硬件</h4>
           <div className="grid grid-cols-2 gap-2">
             <Field label="CPU" value={userSpec.cpu} onChange={(v) => setUserSpec((s) => ({ ...s, cpu: v }))} />
             <Field label="GPU" value={userSpec.gpu} onChange={(v) => setUserSpec((s) => ({ ...s, gpu: v }))} />
@@ -65,15 +64,15 @@ export function HardwareChecker() {
 
         {/* Game Requirements */}
         <div className="space-y-3">
-          <h4 className="text-sm font-medium text-zinc-300">游戏配置要求</h4>
-          <div className="text-xs text-zinc-500 mb-1">最低配置</div>
+          <h4 className="text-sm font-medium text-[#333]">游戏配置要求</h4>
+          <div className="text-xs text-[#999] mb-1">最低配置</div>
           <div className="grid grid-cols-2 gap-2">
             <Field label="最低 CPU" value={gameReq.minCpu} onChange={(v) => setGameReq((s) => ({ ...s, minCpu: v }))} />
             <Field label="最低 GPU" value={gameReq.minGpu} onChange={(v) => setGameReq((s) => ({ ...s, minGpu: v }))} />
             <Field label="最低 RAM" type="number" value={String(gameReq.minRamGB)} onChange={(v) => setGameReq((s) => ({ ...s, minRamGB: Number(v) || 0 }))} />
             <Field label="最低 VRAM" type="number" value={String(gameReq.minVramGB)} onChange={(v) => setGameReq((s) => ({ ...s, minVramGB: Number(v) || 0 }))} />
           </div>
-          <div className="text-xs text-zinc-500 mb-1 mt-3">推荐配置</div>
+          <div className="text-xs text-[#999] mb-1 mt-3">推荐配置</div>
           <div className="grid grid-cols-2 gap-2">
             <Field label="推荐 CPU" value={gameReq.recCpu} onChange={(v) => setGameReq((s) => ({ ...s, recCpu: v }))} />
             <Field label="推荐 GPU" value={gameReq.recGpu} onChange={(v) => setGameReq((s) => ({ ...s, recGpu: v }))} />
@@ -91,8 +90,8 @@ export function HardwareChecker() {
           <span className={cn(
             "text-sm font-semibold px-3 py-1 rounded-full",
             result.canRun
-              ? "bg-emerald-500/10 text-emerald-400 border border-emerald-500/30"
-              : "bg-red-500/10 text-red-400 border border-red-500/30"
+              ? "bg-[#e8f5ec] text-[#15B04F] border border-[#15B04F]/30"
+              : "bg-red-50 text-red-500 border border-red-200"
           )}>
             {result.canRun ? "可运行" : "无法运行"} · {result.qualityLevel}
           </span>
@@ -117,12 +116,12 @@ function Field({
 }) {
   return (
     <div className="flex flex-col gap-1">
-      <label className="text-xs text-zinc-500">{label}</label>
+      <label className="text-xs text-[#999]">{label}</label>
       <input
         type={type}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="bg-white/5 border border-white/10 rounded-md px-2 py-1.5 text-sm text-zinc-200 focus:outline-none focus:border-indigo-500/50 transition-colors"
+        className="bg-[#f5f5f5] border border-[#e8e8e8] rounded-md px-2 py-1.5 text-sm text-[#333] focus:outline-none focus:border-[#15B04F]/50 transition-colors"
         placeholder="-"
       />
     </div>

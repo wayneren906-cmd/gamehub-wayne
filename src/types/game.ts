@@ -4,6 +4,7 @@ export interface Game {
   name: string;
   released: string;
   background_image: string;
+  hero_image?: string;
   rating: number;
   metacritic: number;
   genres: Genre[];
@@ -83,6 +84,24 @@ export interface GameRequirements {
   recGpu: string;
   recRamGB: number;
   recVramGB: number;
+}
+
+export interface NewsItem {
+  date: string;
+  title: string;
+  summary: string;
+}
+
+export interface GameDetail extends Game {
+  description_raw: string;
+  developers: Developer[];
+  publishers: Publisher[];
+  requirements: GameRequirements;
+  reviews: string[];
+  gameplay?: string;
+  recommendation?: string;
+  screenshots?: string[];
+  news?: NewsItem[];
 }
 
 export interface CompatibilityResult {
